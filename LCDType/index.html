@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>LCD型號資料登錄</title>
+
+    <script type="text/javascript" src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="mainJavascriptFile.js">
+
+
+    </script>
+    <link rel="stylesheet" href="pageCSS.css">
+
+</head>
+<body>
+新增型號： <input type="text" placeholder="型號" id="insertType"> &nbsp;
+<input id="newType" type="button" value="新增" disabled="disabled" onclick="newType()">
+<br/><br/>
+
+<span style="font-size: 20px;">新增功能</span>
+<br/>
+<div class="d-margin-top-10 d-table width-100">
+    選擇型號：
+    <select id="type_select">
+    </select>&nbsp;
+    <input type="button" id="deleteType" value="刪除"/>&nbsp;
+    <input type="button" id="copyTypeData" value="複製" onclick="copyTypeData()"/>&nbsp;
+    <input type="button" id="pasteTypeData" value="貼上" disabled/>&nbsp;
+    <input type='button' value='重新命名' id='typeRename' onclick='startRename()'>&nbsp;
+    <span hidden id="renameView">
+        <input type="text" id="renameText">
+        <input type="button" id="renameSend" value="送出">
+    </span>
+</div>
+
+<div class="d-table width-100 d-margin-top-10">
+    功能代碼：
+    <input class="insertText" type="text" id="funcCode"/>
+    功能型態：
+    <select class="insertSelect" id="dataTypeSelect">
+        <option>value</option>
+        <option>text</option>
+        <option>switch</option>
+    </select>
+    功能名稱：
+    <input class="insertText" type="text" id="funcName"/>&nbsp;
+    <input type="button" id="newCommand" value="新增" onclick="newService()"/> &nbsp;
+    <div class="d-table-cell text-align-right">
+        <input type="button" id="upDateToCloud" value="上傳" onclick="uploadToCloud()">
+    </div>
+</div>
+<hr/>
+<div id="tablePlace">
+
+</div>
+<table id="table" border="1" style="border-collapse: collapse; text-align: center" width="50%">
+
+</table>
+
+<!--Edit View-->
+<div class="editView" id="editView">
+    <input type="hidden" id="section">
+    <input type="hidden" id="row">
+    <div class="editInputView" id="editCodeView">
+        <label>
+            功能代碼：
+            <input class="editText" type="text" id="editCode"/><br/>
+        </label>
+    </div>
+    <div class="editInputView">
+        <label>
+            功能型態：
+            <select class="editSelect" id="editSelect">
+                <option>value</option>
+                <option>text</option>
+                <option>switch</option>
+            </select><br/>
+        </label>
+    </div>
+
+    <div class="editInputView">
+        <label>
+            功能說明：
+            <input class="editText" type="text" id="editName"/><br/>
+        </label>
+    </div>
+    <div class="editButtonView">
+        <input id="editCancelButton" type="button" value="取消" style="margin-right: 30px" onclick="editCancelAction()">
+        <input id="editSendButton" type="button" value="送出" style="margin-left: 30px" onclick="editSendAction()">
+    </div>
+</div>
+<div id="test">
+</div>
+
+
+</body>
+</html>

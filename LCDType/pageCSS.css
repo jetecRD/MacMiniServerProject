@@ -1,0 +1,120 @@
+
+#insertType {
+    border-color: lightgray;
+    border-width: 0.5px;
+    border-radius: 5px;
+    width: 150px;
+    height: 20px;
+    -moz-outline-radius: 5px;
+}
+
+#insertType:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2.5px #6db9fd;
+}
+
+.typeList {
+    border: 2px solid black;
+}
+
+.insertText, .insertSelect {
+    width: 10%;
+}
+
+.insertSelect {
+    align-items: center;
+}
+
+.editView {
+    position: absolute;
+    left: 50%;
+    top: -33%;
+    /*top: -50%;*/
+    width: 33%;
+    height: 33%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 7px;
+    box-shadow: 10px 10px 5px gray;
+    border: 1px black solid;
+    animation-duration: 10s;
+    text-align: left;
+    /*padding: 20px;*/
+    padding-top: 50px;
+
+}
+
+.editInputView {
+    /*position: initial;*/
+    width: 50%;
+    margin: 0px auto;
+    /*border: 1px solid black;*/
+    padding: 0px auto;
+    margin-bottom: 10px;
+
+}
+
+#editCodeView {
+    /*margin: 20px auto;*/
+}
+
+.editButtonView {
+    /*width: 100%;*/
+    /*height: 50px;*/
+    margin: 0px auto;
+    margin-top: 30px;
+    /*margin-bottom: 10px;*/
+    text-align: center;
+}
+#editCancelButton, #editSendButton {
+    width: 100px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(100, 100, 100, 1);
+    border-radius: 5px;
+}
+
+#editCancelButton:hover, #editSendButton:hover {
+    background-color: lightgray;
+}
+.d-margin-top-10 {
+    margin-top: 10px;
+}
+.d-table {
+    display: table;
+}
+.d-table-cell {
+    display: table-cell;
+}
+.text-align-right {
+    text-align: right;
+}
+.text-align-left {
+    text-align: left;
+}
+
+.width-100 {
+    width: 100%     !important;
+    height: 30px;
+}
+
+#upDateToCloud {
+    width: 100px;
+    margin-right: 50px;
+    margin-left: auto;
+    outline: none;
+    /*box-shadow: 0px 0px 0px 2.5px #6db9fd;*/
+
+}
+#renameText {
+    border-color: lightgray;
+    border-width: 0.5px;
+    border-radius: 5px;
+    -moz-outline-radius: 5px;
+}
+
+#renameText:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2.5px #6db9fd;
+}

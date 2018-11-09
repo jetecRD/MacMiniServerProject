@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteRule ^phpinfo$ ./info.php
+RewriteRule ^update$ ./twc220/update.php
+RewriteRule ^upload$ ./twc220_log/upload.php
+RewriteRule ^LCD$ ./LCDType/index.html

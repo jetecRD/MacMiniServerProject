@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <script type="text/javascript">
+
+        window.onload = function () {
+            let columns = ["id", "Temperature", "Humidity"];
+
+            function addColumn() {
+                let columnArea = document.getElementById("columnRow");
+                var html = "";
+                for (i = 0; i < columns.length; i++) {
+                    html += "<td class='ColumnCell'>" + columns[i] + "</td>"
+                }
+                columnArea.innerHTML = html
+            }
+
+            function addData() {
+                let num = 900;
+                for (ii = 0; ii < 5; ii++) {
+                    let dataTable = document.getElementById("sheetTable-" + (ii+1));
+                    var html = "";
+                    for (i = 1; i <= 200; i++) {
+                        let id = (ii * 200) + i;
+                        html += "<tr>";
+                            if (id <= num) {
+                                html += "<td class='TimeCell'>" + id + "</td>";
+                                html += "<td class=''>" + Math.floor(((Math.random() * 100) - 20)) + "˚C" +  "</td>";
+                                html += "<td class=''>" + Math.floor(((Math.random() * 100))) + "%" + "</td>";
+
+                            }else {
+                                html += "<td class='TimeCell'>&nbsp;</td>";
+                                html += "<td class=''>&nbsp;</td>";
+                                html += "<td class=''>&nbsp;</td>";
+                            }
+                        html += "</tr>";
+                        /*
+                        if (id == num) {
+                            let dataTable = document.getElementById("sheetTable-" + (ii+1));
+                            let lastTable = document.getElementById("sheetTable-" + (ii));
+                            console.log(dataTable.offsetHeight);
+                            console.log(lastTable.offsetHeight);
+                            break
+                        }*/
+                    }
+                    dataTable.innerHTML = html
+                }
+
+                let dataDiv = document.getElementById("table_div");
+                let dataTable = document.getElementById("sheetTable-1");
+                dataDiv.style.height = dataTable.offsetHeight + "px"
+            }
+
+            // addColumn();
+            addData();
+        };
+
+    </script>
+
+
+    <style>
+
+        #sheetTable-1, #sheetTable-2, #sheetTable-3, #sheetTable-4, #sheetTable-5 {
+            width: 20%;
+            height: 100%;
+            border-collapse: collapse;
+            text-align: right;
+            position: static;
+            float: left;
+            font-size: 10px;
+            font-weight: bold;
+
+        }
+
+        .table_left {
+            border: 2px solid;
+            /*border-style: solid;*/
+        }
+        .table_center {
+            border: 2px;
+            border-style: solid solid solid none;
+        }
+        .table_right {
+            border: 2px;
+            border-style: solid solid solid none;
+        }
+        .TimeCell {
+            background-color: #BBBBBB;
+        }
+
+
+
+        .border {
+            /*border: 1px ;*/
+        }
+
+        .fixed-layout {
+            table-layout: fixed;
+        }
+
+        .ColumnCell {
+            /*border: solid black 1px;*/
+            /*height: #Cellheight#px;*/
+            border: 2px;
+            border-style: none none solid none;
+            text-align: center;
+            height: 40px;
+        }
+
+        .DataCell {
+            border: 0px;
+            border-style: none;
+            padding-top: 0px;
+            padding-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        #columnRow {
+            font-size: large;
+            font-weight: bold;
+        }
+
+        .CenterText {
+            text-align: center;
+        }
+
+        #table_div, #table_div-2 {
+            width: 85%;
+            height: 300px;
+            align-content: center;
+            margin: 0 auto;
+            zoom: 1;
+            position: relative;
+        }
+
+        #table_div-2 {
+            margin-top: 20px;
+        }
+
+
+    </style>
+</head>
+<body >
+
+<div class="fixed-layout table_div" >
+    <table class="border fixed-layout table_left" id="sheetTable-1" >
+        #DataSheet-1#
+    </table>
+    <table class="border fixed-layout table_center" id="sheetTable-2" >
+        #DataSheet-2#
+    </table>
+    <table class="border fixed-layout table_center" id="sheetTable-3" >
+        #DataSheet-3#
+    </table>
+    <table class="border fixed-layout table_center" id="sheetTable-4" >
+        #DataSheet-4#
+    </table>
+    <table class="border fixed-layout table_right" id="sheetTable-5" >
+        #DataSheet-5#
+    </table>
+</div>
+
+<div class="fixed-layout" id="table_div-2" >
+</div>
+
+</body>
+</html>

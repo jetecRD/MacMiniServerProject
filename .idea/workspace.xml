@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e2d1fb5-ce9d-4863-988a-52ba3a736a06" name="Default Changelist" comment="" />
+    <list default="true" id="1e2d1fb5-ce9d-4863-988a-52ba3a736a06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DataTable.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpreadSheet.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,11 +31,11 @@
     <session id="-2131257310">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="30" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.24" value="2" />
           <entry key="project.open.time.27" value="1" />
@@ -45,21 +49,23 @@
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.41" value="1" />
           <entry key="project.open.time.43" value="1" />
-          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.54" value="1" />
+          <entry key="project.open.time.61" value="1" />
+          <entry key="project.open.time.64" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
+          <entry key="css" value="6" />
           <entry key="csv" value="14" />
           <entry key="htaccess" value="4" />
-          <entry key="html" value="8" />
+          <entry key="html" value="19" />
           <entry key="iml" value="1" />
           <entry key="js" value="17" />
           <entry key="json" value="45" />
@@ -67,14 +73,14 @@
           <entry key="map" value="2" />
           <entry key="md" value="1" />
           <entry key="php" value="115" />
-          <entry key="ts" value="24" />
+          <entry key="ts" value="25" />
           <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="8" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="19" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JSON" value="45" />
           <entry key="JavaScript" value="17" />
@@ -82,7 +88,7 @@
           <entry key="PHP" value="115" />
           <entry key="PLAIN_TEXT" value="14" />
           <entry key="SourceMap" value="2" />
-          <entry key="TypeScript" value="24" />
+          <entry key="TypeScript" value="25" />
           <entry key="XML" value="31" />
           <entry key="htaccess" value="4" />
           <entry key="tsconfig" value="1" />
@@ -93,7 +99,7 @@
           <entry key="css" value="461" />
           <entry key="dummy" value="5" />
           <entry key="htaccess" value="1" />
-          <entry key="html" value="16256" />
+          <entry key="html" value="19577" />
           <entry key="js" value="921" />
           <entry key="json" value="11" />
           <entry key="php" value="12683" />
@@ -103,7 +109,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="461" />
-          <entry key="HTML" value="16256" />
+          <entry key="HTML" value="19577" />
           <entry key="JSON" value="11" />
           <entry key="JavaScript" value="921" />
           <entry key="PHP" value="12683" />
@@ -134,11 +140,56 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/KotlinPost.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
+            <state>
               <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpreadSheet.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="429">
+              <caret line="154" selection-start-line="154" selection-end-line="155" />
+              <folding>
+                <element signature="e#21#27#1" expanded="true" />
+                <element signature="e#13#19#1" expanded="true" />
+                <element signature="e#13#19#1" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web 拷貝.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="181">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataTable.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+              <folding>
+                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,9 +201,9 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -176,6 +227,9 @@
       <replace>editName</replace>
       <replace>funcName</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -224,6 +278,10 @@
         <option value="$PROJECT_DIR$/methodTest.php" />
         <option value="$PROJECT_DIR$/KotlinPost.php" />
         <option value="$PROJECT_DIR$/Others/methodTest.php" />
+        <option value="$PROJECT_DIR$/SpreadSheet.html" />
+        <option value="$PROJECT_DIR$/DataTable.html" />
+        <option value="$PROJECT_DIR$/Web.html" />
+        <option value="$PROJECT_DIR$/Web 拷貝.html" />
       </list>
     </option>
   </component>
@@ -250,6 +308,7 @@
     <option name="width" value="1747" />
     <option name="height" value="937" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -289,6 +348,7 @@
       <recent name="$PROJECT_DIR$/twc220" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/LCDType" />
       <recent name="$PROJECT_DIR$/php_test/vendor/tightenco/collect/src/Collect/Support" />
       <recent name="$PROJECT_DIR$/twc220_log" />
@@ -348,11 +408,15 @@
       <workItem from="1540434285876" duration="2219000" />
       <workItem from="1540863294913" duration="299000" />
       <workItem from="1540949012045" duration="943000" />
+      <workItem from="1542178434366" duration="2284000" />
+      <workItem from="1542240245888" duration="8323000" />
+      <workItem from="1542260225710" duration="5951000" />
+      <workItem from="1542327080249" duration="5466000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="133853000" />
+    <option name="totallyTimeSpent" value="155877000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -367,8 +431,8 @@
     <frame x="130" y="23" width="1747" height="937" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49878934" visible="true" weight="0.18997051" />
-      <window_info id="Structure" order="1" sideWeight="0.50121063" side_tool="true" weight="0.17345133" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757868" visible="true" weight="0.20117994" />
+      <window_info id="Structure" order="1" sideWeight="0.5024213" side_tool="true" weight="0.19528024" />
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.17345133" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292978" />
@@ -379,7 +443,7 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925816" weight="0.3292978" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3292978" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074184" side_tool="true" weight="0.3292978" />
       <window_info anchor="bottom" id="TypeScript" order="12" show_stripe_button="false" weight="0.3292978" />
@@ -396,29 +460,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/twc220/2018-09-12_14:45:03_status.xml" />
-    <entry file="file://$PROJECT_DIR$/twc220_log/2018-09-12_15:59:54_log.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" column="50" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Topic/littleTopics_HTML/myscript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/vendor/psr/http-message/CHANGELOG.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LCDType/vendor/psr/http-message/composer.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -550,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307746">
-          <caret line="17110" column="17" selection-start-line="17110" selection-start-column="17" selection-end-line="17110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LCDType/jquery-3.3.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -631,13 +665,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/pageCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
-          <caret line="112" column="23" selection-start-line="112" selection-start-column="23" selection-end-line="112" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Others/test.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -690,10 +717,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LCDType/pageCSS.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="762">
+          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="699">
+          <caret line="4380" column="26" lean-forward="true" selection-start-line="4380" selection-start-column="26" selection-end-line="4380" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/KotlinPost.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
+        <state>
           <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTable.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+          <folding>
+            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpreadSheet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="154" selection-start-line="154" selection-end-line="155" />
+          <folding>
+            <element signature="e#21#27#1" expanded="true" />
+            <element signature="e#13#19#1" expanded="true" />
+            <element signature="e#13#19#1" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web 拷貝.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
         </state>
       </provider>
     </entry>

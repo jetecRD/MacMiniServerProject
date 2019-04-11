@@ -2,9 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1fb5-ce9d-4863-988a-52ba3a736a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTable.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpreadSheet.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoLang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GoLang/HelloWorld.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/onReady.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/postcss.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/app/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/app/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/assets/sidebar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/components/HelloWorld.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/components/Main.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/router/router-button.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/router/router.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/store/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/store/resource.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/store/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/views/About.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/views/Home.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/views/Weather.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LCDType/tmpFile/LCDTypeJson.json" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/tmpFile/LCDTypeJson.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,9 +59,10 @@
     <session id="-2131257310">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="30" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.13" value="2" />
+          <entry key="project.open.time.167" value="1" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.2" value="2" />
           <entry key="project.open.time.23" value="1" />
@@ -41,54 +70,64 @@
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.28" value="1" />
           <entry key="project.open.time.29" value="1" />
-          <entry key="project.open.time.30" value="1" />
+          <entry key="project.open.time.30" value="2" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.33" value="2" />
+          <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.35" value="2" />
+          <entry key="project.open.time.36" value="2" />
           <entry key="project.open.time.37" value="1" />
           <entry key="project.open.time.39" value="2" />
           <entry key="project.open.time.41" value="1" />
-          <entry key="project.open.time.43" value="1" />
+          <entry key="project.open.time.43" value="2" />
           <entry key="project.open.time.48" value="2" />
           <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.54" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.64" value="1" />
+          <entry key="project.open.time.71" value="1" />
           <entry key="project.open.time.73" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="31" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="6" />
+          <entry key="browserslistrc" value="3" />
+          <entry key="css" value="10" />
           <entry key="csv" value="14" />
+          <entry key="gitignore" value="2" />
           <entry key="htaccess" value="4" />
-          <entry key="html" value="19" />
+          <entry key="html" value="33" />
+          <entry key="ico" value="2" />
           <entry key="iml" value="1" />
-          <entry key="js" value="17" />
-          <entry key="json" value="45" />
+          <entry key="js" value="72" />
+          <entry key="json" value="50" />
           <entry key="lock" value="1" />
           <entry key="map" value="2" />
           <entry key="md" value="1" />
-          <entry key="php" value="115" />
-          <entry key="ts" value="25" />
+          <entry key="php" value="118" />
+          <entry key="png" value="1" />
+          <entry key="ts" value="41" />
+          <entry key="vue" value="27" />
           <entry key="xml" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="6" />
-          <entry key="HTML" value="19" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="33" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JSON" value="45" />
-          <entry key="JavaScript" value="17" />
+          <entry key="Image" value="3" />
+          <entry key="JSON" value="50" />
+          <entry key="JavaScript" value="72" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="115" />
-          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="PHP" value="118" />
+          <entry key="PLAIN_TEXT" value="19" />
           <entry key="SourceMap" value="2" />
-          <entry key="TypeScript" value="25" />
+          <entry key="TypeScript" value="41" />
+          <entry key="Vue.js" value="27" />
           <entry key="XML" value="31" />
           <entry key="htaccess" value="4" />
           <entry key="tsconfig" value="1" />
@@ -96,25 +135,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="461" />
+          <entry key="css" value="1187" />
           <entry key="dummy" value="5" />
           <entry key="htaccess" value="1" />
-          <entry key="html" value="19577" />
-          <entry key="js" value="921" />
+          <entry key="html" value="20162" />
+          <entry key="js" value="3155" />
           <entry key="json" value="11" />
-          <entry key="php" value="12683" />
+          <entry key="php" value="12689" />
           <entry key="ts" value="621" />
+          <entry key="vue" value="11056" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="461" />
-          <entry key="HTML" value="19577" />
+          <entry key="CSS" value="1187" />
+          <entry key="HTML" value="20162" />
           <entry key="JSON" value="11" />
-          <entry key="JavaScript" value="921" />
-          <entry key="PHP" value="12683" />
+          <entry key="JavaScript" value="3155" />
+          <entry key="PHP" value="12689" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="TypeScript" value="621" />
+          <entry key="Vue.js" value="11056" />
           <entry key="htaccess" value="1" />
         </counts>
       </usages-collector>
@@ -128,7 +169,7 @@
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
         <counts>
-          <entry key="TypeScriptServerServiceImpl" value="4" />
+          <entry key="TypeScriptServerServiceImpl" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.php.composer.command.options" />
@@ -141,55 +182,95 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/KotlinPost.php">
+        <entry file="file://$PROJECT_DIR$/weather/src/app/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpreadSheet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
-              <caret line="154" selection-start-line="154" selection-end-line="155" />
+            <state relative-caret-position="418">
+              <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="29" />
               <folding>
-                <element signature="e#21#27#1" expanded="true" />
-                <element signature="e#13#19#1" expanded="true" />
-                <element signature="e#13#19#1" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Web 拷貝.html">
+        <entry file="file://$PROJECT_DIR$/weather/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            <state>
+              <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather/src/app/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-674">
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather/src/views/Home.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="423">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+              <folding>
+                <element signature="e#419#462#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Web.html">
+        <entry file="file://$PROJECT_DIR$/weather/src/views/Weather.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+            <state relative-caret-position="380">
+              <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataTable.html">
+        <entry file="file://$PROJECT_DIR$/weather/src/components/Main.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+            <state relative-caret-position="663">
+              <caret line="36" column="26" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="36" selection-end-column="26" />
               <folding>
-                <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#491#534#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather/src/store/action.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather/src/store/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather/src/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -199,11 +280,12 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="tsconfig.json" />
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -220,12 +302,19 @@
       <find>selectedIn</find>
       <find>Index</find>
       <find>console</find>
+      <find>style=&quot;width: 20%&quot;</find>
+      <find>mapState</find>
+      <find>BASE_URL</find>
+      <find>var</find>
+      <find>let</find>
     </findStrings>
     <replaceStrings>
       <replace>//</replace>
       <replace>name</replace>
       <replace>editName</replace>
       <replace>funcName</replace>
+      <replace>let</replace>
+      <replace>var</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -234,35 +323,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/csvdecode.php" />
-        <option value="$PROJECT_DIR$/Classes/uploadCSV.html" />
-        <option value="$PROJECT_DIR$/uploadCSV.html" />
-        <option value="$PROJECT_DIR$/getCSVData.php" />
-        <option value="$PROJECT_DIR$/CSVToExcelConverter.php" />
-        <option value="$PROJECT_DIR$/excel_export.php" />
-        <option value="$PROJECT_DIR$/update.php" />
-        <option value="$PROJECT_DIR$/twc220_log/2018-09-05_10:53:58_log.csv" />
-        <option value="$PROJECT_DIR$/twc220/update.php" />
-        <option value="$PROJECT_DIR$/twc220_log/upload.php" />
-        <option value="$PROJECT_DIR$/php_test/vendor/tightenco/collect/src/Collect/Support/Debug/Dumper.php" />
-        <option value="$PROJECT_DIR$/php_test/vendor/tightenco/collect/src/Collect/Support/Debug/HtmlDumper.php" />
-        <option value="$PROJECT_DIR$/php_test/app-info.json" />
-        <option value="$PROJECT_DIR$/php_test/index.php" />
-        <option value="$PROJECT_DIR$/LCDType/DropboxUserData.php" />
-        <option value="$PROJECT_DIR$/LCDType/Basic.php" />
-        <option value="$PROJECT_DIR$/LCDType/upLoadFile.php" />
-        <option value="$PROJECT_DIR$/LCDType/index.php" />
-        <option value="$PROJECT_DIR$/LCDType/postTest.php" />
-        <option value="$PROJECT_DIR$/LCDType/getTypeData.php" />
-        <option value="$PROJECT_DIR$/LCDType/page1.html" />
-        <option value="$PROJECT_DIR$/LCDType/upload.php" />
-        <option value="$PROJECT_DIR$/LCDType/DropboxController.php" />
-        <option value="$PROJECT_DIR$/LCDType/uploadToCloud.php" />
-        <option value="$PROJECT_DIR$/LCDType/editService.php" />
-        <option value="$PROJECT_DIR$/LCDType/changePosition.php" />
-        <option value="$PROJECT_DIR$/LCDType/newService.php" />
-        <option value="$PROJECT_DIR$/LCDType/deleteObject.php" />
-        <option value="$PROJECT_DIR$/LCDType/setNewType.php" />
         <option value="$PROJECT_DIR$/LCDType/renameType.php" />
         <option value="$PROJECT_DIR$/LCDType/editType.php" />
         <option value="$PROJECT_DIR$/LCDType/tmpFile/LCDTypeJson.json" />
@@ -270,31 +330,73 @@
         <option value="$PROJECT_DIR$/mainJavascriptFile.js" />
         <option value="$PROJECT_DIR$/LCDType/index.html" />
         <option value="$PROJECT_DIR$/LCDType/copyTypeData.php" />
-        <option value="$PROJECT_DIR$/LCDType/mainJavascriptFile.js" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/Test.html" />
         <option value="$PROJECT_DIR$/tsconfig.json" />
         <option value="$PROJECT_DIR$/test.ts" />
         <option value="$PROJECT_DIR$/methodTest.php" />
-        <option value="$PROJECT_DIR$/KotlinPost.php" />
         <option value="$PROJECT_DIR$/Others/methodTest.php" />
         <option value="$PROJECT_DIR$/SpreadSheet.html" />
         <option value="$PROJECT_DIR$/DataTable.html" />
+        <option value="$PROJECT_DIR$/KotlinPost.php" />
         <option value="$PROJECT_DIR$/Web.html" />
+        <option value="$PROJECT_DIR$/history.html" />
+        <option value="$PROJECT_DIR$/history-2.html" />
         <option value="$PROJECT_DIR$/Web 拷貝.html" />
+        <option value="$PROJECT_DIR$/weatherOpenData/onload.js" />
+        <option value="$PROJECT_DIR$/weatherOpenData/src/a.vue" />
+        <option value="$PROJECT_DIR$/weatherOpenData/src/TextSet.js" />
+        <option value="$PROJECT_DIR$/weatherOpenData/index.html" />
+        <option value="$PROJECT_DIR$/weather/src/components/HelloWorld.vue" />
+        <option value="$PROJECT_DIR$/weather/src/extensions.js" />
+        <option value="$PROJECT_DIR$/weather/src/store.js" />
+        <option value="$PROJECT_DIR$/weather/src/store/import.js" />
+        <option value="$PROJECT_DIR$/weather/onReady.js" />
+        <option value="$PROJECT_DIR$/weather/src/views/About.vue" />
+        <option value="$PROJECT_DIR$/weather/public/index.html" />
+        <option value="$PROJECT_DIR$/weather/src/router.js" />
+        <option value="$PROJECT_DIR$/weather/src/App.vue" />
+        <option value="$PROJECT_DIR$/weather/src/app/ccccc.vue" />
+        <option value="$PROJECT_DIR$/weather/src/app/router-button.vue" />
+        <option value="$PROJECT_DIR$/twc220_log/upload.php" />
+        <option value="$PROJECT_DIR$/LCDType/mainJavascriptFile.js" />
+        <option value="$PROJECT_DIR$/weather/src/router/router-button.vue" />
+        <option value="$PROJECT_DIR$/weather/src/app/style.css" />
+        <option value="$PROJECT_DIR$/weather/src/store/resource.js" />
+        <option value="$PROJECT_DIR$/weather/src/http.vue" />
+        <option value="$PROJECT_DIR$/weather/src/router/router.js" />
+        <option value="$PROJECT_DIR$/weather/src/http.js" />
+        <option value="$PROJECT_DIR$/weather/src/resource.js" />
+        <option value="$PROJECT_DIR$/weather/src/main.js" />
+        <option value="$PROJECT_DIR$/weather/src/store/action.js" />
+        <option value="$PROJECT_DIR$/weather/src/store/store.js" />
+        <option value="$PROJECT_DIR$/weather/src/components/Main.vue" />
+        <option value="$PROJECT_DIR$/weather/src/views/Home.vue" />
+        <option value="$PROJECT_DIR$/weather/src/app/App.vue" />
+        <option value="$PROJECT_DIR$/weather/src/views/Weather.vue" />
       </list>
     </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/weather/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/node_modules/@types/jquery/package.json" />
       <path value="$PROJECT_DIR$/node_modules/jquery/package.json" />
+      <path value="$PROJECT_DIR$/weather/package.json" />
     </packageJsonPaths>
   </component>
   <component name="PhpServers">
@@ -303,12 +405,34 @@
     </servers>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="130" />
-    <option name="y" value="23" />
+    <option name="x" value="70" />
+    <option name="y" value="25" />
     <option name="width" value="1747" />
-    <option name="height" value="937" />
+    <option name="height" value="968" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Code style issuesJavaScript</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>UnterminatedStatementJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -320,6 +444,70 @@
             <path>
               <item name="www" type="b2602c69:ProjectViewProjectNode" />
               <item name="www" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="LCDType" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -336,22 +524,24 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Others" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/LCDType" />
-      <recent name="$PROJECT_DIR$/twc220_log" />
-      <recent name="$PROJECT_DIR$/twc220" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weather/src" />
+      <recent name="$PROJECT_DIR$/weather/src/store" />
+      <recent name="$PROJECT_DIR$/weather/src/assets" />
+      <recent name="$PROJECT_DIR$/weather/src/components" />
+      <recent name="$PROJECT_DIR$/weather/src/app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/LCDType" />
-      <recent name="$PROJECT_DIR$/php_test/vendor/tightenco/collect/src/Collect/Support" />
-      <recent name="$PROJECT_DIR$/twc220_log" />
+      <recent name="$PROJECT_DIR$/weather/src/router" />
+      <recent name="$PROJECT_DIR$/weather/src/store" />
+      <recent name="$PROJECT_DIR$/weather/src/app" />
+      <recent name="$PROJECT_DIR$/weather/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -412,11 +602,19 @@
       <workItem from="1542240245888" duration="8323000" />
       <workItem from="1542260225710" duration="5951000" />
       <workItem from="1542327080249" duration="5466000" />
+      <workItem from="1549950137628" duration="1381000" />
+      <workItem from="1549958667749" duration="706000" />
+      <workItem from="1550016961037" duration="4889000" />
+      <workItem from="1550721451918" duration="441000" />
+      <workItem from="1552526260034" duration="535000" />
+      <workItem from="1554776533632" duration="20504000" />
+      <workItem from="1554855241740" duration="17058000" />
+      <workItem from="1554941887672" duration="25581000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155877000" />
+    <option name="totallyTimeSpent" value="226972000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -428,25 +626,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="130" y="23" width="1747" height="937" extended-state="0" />
+    <frame x="70" y="25" width="1747" height="968" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757868" visible="true" weight="0.20117994" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49757868" visible="true" weight="0.22477876" />
       <window_info id="Structure" order="1" sideWeight="0.5024213" side_tool="true" weight="0.19528024" />
       <window_info id="Favorites" order="2" sideWeight="0.50121063" side_tool="true" weight="0.17345133" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3292978" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49925816" weight="0.3292978" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3292978" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50074184" side_tool="true" weight="0.3292978" />
-      <window_info anchor="bottom" id="TypeScript" order="12" show_stripe_button="false" weight="0.3292978" />
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32905483" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3292978" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49925816" weight="0.3292978" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3292978" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50074184" side_tool="true" weight="0.32905483" />
+      <window_info anchor="bottom" id="TypeScript" order="13" show_stripe_button="false" weight="0.3292978" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -460,318 +659,311 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LCDType/vendor/psr/http-message/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/composer.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/json/json.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="87" column="3" lean-forward="true" selection-start-line="87" selection-start-column="3" selection-end-line="87" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="1014" column="9" selection-start-line="1014" selection-start-column="9" selection-end-line="1014" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/http/http.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="2260" column="9" selection-start-line="2260" selection-start-column="9" selection-end-line="2260" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/DropboxApp.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="38" column="20" selection-start-line="38" selection-start-column="20" selection-end-line="38" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.webworker.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="468" column="4" selection-start-line="468" selection-start-column="4" selection-end-line="468" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="1304" column="4" selection-start-line="1304" selection-start-column="4" selection-end-line="1304" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/postTest.php" />
-    <entry file="file://$PROJECT_DIR$/LCDType/.idea/php_test.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/.idea/php.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_standard_manual.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="656">
-          <caret line="57" column="9" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/_types.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-561">
-          <caret line="45" column="50" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/getTypeData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/DropboxController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="12" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/uploadToCloud.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LCDType/newService.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6">
+        <state relative-caret-position="437">
           <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LCDType/setNewType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
+        <state relative-caret-position="589">
           <caret line="36" column="32" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/deleteObject.php">
+    <entry file="file://$PROJECT_DIR$/weatherOpenData/src/TextSet.js" />
+    <entry file="file://$PROJECT_DIR$/weatherOpenData/index.html" />
+    <entry file="file://$PROJECT_DIR$/weather/src/assets/logo.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/extensions.js" />
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuex/types/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1057">
-          <caret line="73" column="33" selection-start-line="73" selection-start-column="33" selection-end-line="73" selection-end-column="33" />
+        <state relative-caret-position="95">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/changePosition.php">
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuex/types/helpers.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="882">
-          <caret line="54" column="1" selection-start-line="8" selection-end-line="54" selection-end-column="1" />
+        <state relative-caret-position="325">
+          <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/editType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="25" column="52" selection-start-line="25" selection-start-column="52" selection-end-line="25" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/jquery-3.3.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1" column="1050" selection-start-line="1" selection-start-column="1050" selection-end-line="1" selection-end-column="1050" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/test.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
+    <entry file="file://$PROJECT_DIR$/weather/src/store/import.js" />
+    <entry file="file://$PROJECT_DIR$/weather/babel.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/jquery/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/weather/.browserslistrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/.eslintrc.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="122" column="4" selection-start-line="122" selection-start-column="4" selection-end-line="122" selection-end-column="4" />
+        <state relative-caret-position="3479">
+          <caret line="2012" column="4" selection-start-line="2012" selection-start-column="4" selection-end-line="2012" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/style.css" />
+    <entry file="file://$PROJECT_DIR$/weather/postcss.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/About.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue-router/types/router.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1434">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue-router/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue-router/src/install.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/app/ccccc.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="61" selection-start-line="1" selection-start-column="61" selection-end-line="1" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue-router/dist/vue-router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="565" column="2" selection-start-line="565" selection-start-column="2" selection-end-line="565" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue-router/dist/vue-router.esm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="403" column="27" selection-start-line="403" selection-start-column="27" selection-end-line="403" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twc220_log/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LCDType/mainJavascriptFile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5166">
-          <caret line="287" selection-start-line="287" selection-end-line="287" />
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="e#91#97#1" expanded="true" />
+            <element signature="e#180#186#1" expanded="true" />
+            <element signature="e#262#268#1" expanded="true" />
+            <element signature="e#348#354#1" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Others/Test.html">
+    <entry file="file://$PROJECT_DIR$/LCDType/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-1130" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/router/router-button.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="1322" column="4" selection-start-line="1322" selection-start-column="4" selection-end-line="1322" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/store/resource.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/@types/node/http.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2581">
           <caret column="15" selection-start-column="15" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Others/tsconfig.json">
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue-resource/types/vue_resource.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="25" selection-start-line="1" selection-start-column="22" selection-end-line="2" selection-end-column="25" />
-        </state>
+        <state relative-caret-position="-1092" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Others/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="48" selection-start-column="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/copyTypeData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/tmpFile/LCDTypeJson.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="537" selection-start-column="537" selection-end-column="537" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/editService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/test.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twc220_log/upload.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php_test/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-166" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/info.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/CSVToExcelConverter.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/PHPExcel.php" />
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/getCSVData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twc220/update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/methodTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LCDType/pageCSS.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="762">
-          <caret line="86" column="1" selection-start-line="86" selection-start-column="1" selection-end-line="86" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
-          <caret line="4380" column="26" lean-forward="true" selection-start-line="4380" selection-start-column="26" selection-end-line="4380" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KotlinPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataTable.html">
+    <entry file="file://$PROJECT_DIR$/weather/src/http.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
-          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/http.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue-resource/types/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="26" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/onReady.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/onReady.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="15" lean-forward="true" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#hr#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpreadSheet.html">
+    <entry file="file://$PROJECT_DIR$/weather/src/store/action.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="154" selection-start-line="154" selection-end-line="155" />
+        <state relative-caret-position="76">
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
           <folding>
-            <element signature="e#21#27#1" expanded="true" />
-            <element signature="e#13#19#1" expanded="true" />
-            <element signature="e#13#19#1" expanded="true" />
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web 拷貝.html">
+    <entry file="file://$PROJECT_DIR$/weather/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="70" column="29" lean-forward="true" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state>
+          <caret column="21" lean-forward="true" selection-start-column="21" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Web.html">
+    <entry file="file://$PROJECT_DIR$/weather/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+        <state relative-caret-position="285">
+          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/app/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="12" lean-forward="true" selection-start-line="22" selection-start-column="12" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#button#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/app/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-674">
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/components/Main.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="36" column="26" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="36" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#template#0;n#!!top" expanded="true" />
+            <element signature="e#491#534#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding>
+            <element signature="e#419#462#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Weather.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
         </state>
       </provider>
     </entry>

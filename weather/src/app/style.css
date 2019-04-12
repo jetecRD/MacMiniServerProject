@@ -11,19 +11,36 @@
     top: 0;
     left: 0;
     right: 0;
-    margin: 0 0 10px 0;
     background-color: #2222ff;
 }
 
-#bar_btn {
+.bar_btn {
     position: relative;
     width: 65px;
-    height: 65px;
+    height: 100%;
     background-color: #2222ff;
     outline: none;
     border: 0;
     text-align: center;
+}
 
+.flow-left {
+    float: left;
+}
+.flow-right {
+    float: right;
+}
+
+.title {
+    position: relative;
+    width: 20%;
+    height: 65px;
+    text-align: center;
+    margin: auto;
+    color: white;
+}
+.title h1 {
+    margin: 10px auto !important;
 }
 
 .sidebar {
@@ -32,8 +49,10 @@
     height: 100vh;
     background-color: lightgray;
     z-index: 200;
-    left: -20%;
+    left: -20.5%;
     top: 65px;
+    box-shadow:3px 2px 4px darkgray;
+    
     /*animation-name: sidebar_hide;*/
     /*animation-duration: 800ms;*/
     /*animation-iteration-count: +1;*/
@@ -43,7 +62,7 @@
 
 
 .sidebar_hide {
-    transform: translateX(0);
+    transform: translateX(0%);
 
 }
 .sidebar_show {

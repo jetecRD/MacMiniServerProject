@@ -1,9 +1,15 @@
 <template>
     <div id="app">
         <div id="bar">
-            <button id="bar_btn" type="button" @click="bar_action">
+            <button class="flow-left bar_btn" id="sidebar_control" type="button" @click="bar_action">
                 <img style="width: 50px; height: 50px" src="../assets/sidebar.png"/>
             </button>
+            <button class="flow-right bar_btn" id="reload"  type="button">
+                reload
+            </button>
+            <div class="title">
+            <h1>{{title}}</h1>
+            </div>
         </div>
         <div class="sidebar" id="sidebar">
             <router-button path="/" title="Home"></router-button>
@@ -16,16 +22,16 @@
 
 <script>
     import RouterButton from "../router/router-button";
+
     export default {
         components: {RouterButton},
+        data: function() {
+            return {
+                title: "三十六小時天氣預報"
+            }
+        },
         methods: {
             bar_action: barAction,
-            toHome: function toHome () {
-                this.$router.push({path: '/'})
-            },
-            toAbout: function () {
-                this.$router.push({path: '/about'})
-            }
         }
         ,
         mounted() {
@@ -34,7 +40,7 @@
 
 
     function barAction() {
-        const bar = document.getElementById("bar_btn");
+        const bar = document.getElementById("sidebar_control");
         if (bar.getAttribute("status") == null) {
             bar.setAttribute("status", "true");
         }
@@ -48,7 +54,7 @@
     }
 
     function showBar() {
-        const bar = document.getElementById("bar_btn");
+        const bar = document.getElementById("sidebar_control");
         const view = document.getElementById("sidebar");
         bar.setAttribute("status", "false");
         if (view.classList.contains("sidebar_hide")) {
@@ -58,7 +64,7 @@
     }
 
     function hideBar() {
-        const bar = document.getElementById("bar_btn");
+        const bar = document.getElementById("sidebar_control");
         const view = document.getElementById("sidebar");
         bar.setAttribute("status", "true");
         if (view.classList.contains("sidebar_show")) {

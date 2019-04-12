@@ -3,6 +3,7 @@ import App from './app/App.vue'
 import router from './router/router'
 import store from './store/store'
 import "./resource.js"
+// import "extensions"
 
 Vue.config.productionTip = false
 new Vue({

@@ -5,23 +5,20 @@
             <h2 id="locationName">{{w.locationName}}</h2>
             <table class="table">
                 <tr>
-                    <th>start</th>
-                    <th>end</th>
-                    <th>Wx</th>
-                    <th>MaxT</th>
-                    <th>MinT</th>
-                    <th>CI</th>
-                    <th>PoP</th>
+                    <th>開始時間</th>
+                    <th>結束時間</th>
+                    <th>概況</th>
+                    <th>舒適度</th>
+                    <th>降雨機率</th>
                 </tr>
                 <!-- eslint-disable-next-line -->
                 <tr v-for="(v, i) in w.weatherElement.Wx">
                     <td> {{timeFormatted(v.startTime)}}</td>
                     <td> {{timeFormatted(v.endTime)}}</td>
-                    <td> {{w.weatherElement.Wx[i].parameter.parameterName}}</td>
-                    <td> {{w.weatherElement.MaxT[i].parameter.parameterName}}</td>
-                    <td> {{w.weatherElement.MinT[i].parameter.parameterName}}</td>
+                    <td> {{w.weatherElement.Wx[i].parameter.parameterName}}<!-- : {{w.weatherElement.Wx[i].parameter.parameterValue}}--><br/>
+                        {{w.weatherElement.MinT[i].parameter.parameterName}} ~ {{w.weatherElement.MaxT[i].parameter.parameterName}}</td>
                     <td> {{w.weatherElement.CI[i].parameter.parameterName}}</td>
-                    <td> {{w.weatherElement.PoP[i].parameter.parameterName}}</td>
+                    <td> {{w.weatherElement.PoP[i].parameter.parameterName}}%</td>
                 </tr>
             </table>
         </div>
@@ -57,7 +54,7 @@
     .block {
         position: relative;
         width: 80%;
-        height: 23vh;
+        height: 27vh;
         top: 70px;
         background-color: lightgrey;
         margin: 10px auto 30px;

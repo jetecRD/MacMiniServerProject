@@ -1,15 +1,18 @@
 <template>
-    <button  @click="action">{{title}}</button>
+    <button @click="push">{{title}}</button>
 </template>
 
 <script>
     export default {
         name: "router-button",
-        data: function() {
+        data: function () {
             return {}
         },
         methods: {
-            action: function () {
+            push() {
+                if (this.path === "/" && !window.confirm("Do you want to sign out?")) {
+                    return
+                }
                 this.$router.push(this.path)
             }
         },

@@ -11,6 +11,8 @@ const mutations = {
 export default new Vuex.Store({
 
     state: {
+        account: "",
+        password: "",
         count: 0,
         msg: "Count",
         weather: {}

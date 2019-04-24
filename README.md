@@ -1,4 +1,4 @@
 # MacMiniServerProject
 [Google][]
 
-[Google]: http://google.com/ "Google"
+[Google]: http://google.com/

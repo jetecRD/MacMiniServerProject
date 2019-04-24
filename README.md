@@ -1,5 +1,5 @@
 # MacMiniServerProject
-I get 10 times more traffic from [google][] than from
+I get 10 times more traffic from [Google][] than from
 [Yahoo][] or [MSN][].
 
   [google]: http://google.com/        "Google"

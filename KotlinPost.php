@@ -22,12 +22,10 @@ switch ($method) {
 
 // TODO: postFunction
 function postFunction() {
-    if (!isset($_POST['account']) | !isset($_POST['password'])) {echo "Missing Parameter";die(201);};
-    $acc = $_POST['account'];
-    $pwd = $_POST['password'];
-    $dataArray = ["account" => $acc, "password" => $pwd];
-    $string = json_encode($dataArray, true);
-    echo $string;
+    if (!isset($_POST['BookingResult'])) {echo "Missing Parameter";die(201);};
+    $data = $_POST['BookingResult'];
+//    $string = json_encode($data, true);
+    echo $data;
 
 }
 

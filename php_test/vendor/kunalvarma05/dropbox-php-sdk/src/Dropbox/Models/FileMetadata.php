@@ -35,7 +35,7 @@ class FileMetadata extends BaseModel
     protected $size;
 
     /**
-     * The lowercased full path in the user's Dropbox.
+     * The lowercased full path in the username's Dropbox.
      *
      * @var string
      */

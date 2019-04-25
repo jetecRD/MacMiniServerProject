@@ -1,85 +1,13 @@
 <template>
-    <div class="weather">
-        <!-- eslint-disable-next-line -->
-        <div class="block" v-for="w of weather" >
-            <h2 id="locationName">{{w.locationName}}</h2>
-            <table class="table">
-                <tr>
-                    <th>開始時間</th>
-                    <th>結束時間</th>
-                    <th>概況</th>
-                    <th>舒適度</th>
-                    <th>降雨機率</th>
-                </tr>
-                <!-- eslint-disable-next-line -->
-                <tr v-for="(v, i) in w.weatherElement.Wx">
-                    <td> {{timeFormatted(v.startTime)}}</td>
-                    <td> {{timeFormatted(v.endTime)}}</td>
-                    <td> {{w.weatherElement.Wx[i].parameter.parameterName}}<!-- : {{w.weatherElement.Wx[i].parameter.parameterValue}}--><br/>
-                        {{w.weatherElement.MinT[i].parameter.parameterName}} ~ {{w.weatherElement.MaxT[i].parameter.parameterName}}</td>
-                    <td> {{w.weatherElement.CI[i].parameter.parameterName}}</td>
-                    <td> {{w.weatherElement.PoP[i].parameter.parameterName}}%</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+  
 </template>
 
 <script>
-    import {mapState} from 'vuex'
-
-    const computed = mapState({weather: "weather"});
     export default {
-        name: "Weather",
-        computed: computed,
-        methods: {
-            timeFormatted(d) {
-                const date = new Date(d)
-                const df = require('date-format')
-                return df.asString('MM/dd-hh:mm', date)
-
-            }
-        }
-
+        name: "Weather"
     }
 </script>
 
 <style scoped>
-
-
-    .weather {
-        text-align: center;
-    }
-
-    .block {
-        position: relative;
-        width: 80%;
-        height: 27vh;
-        top: 70px;
-        background-color: lightgrey;
-        margin: 10px auto 30px;
-        border-radius: 5px;
-        text-align: left;
-    }
-
-
-    .table{
-        border-collapse: collapse;
-        border: 1px black solid;
-        text-align: center;
-        width: 100%;
-        margin-top: 20px;
-        table-layout: fixed;
-    }
-    .table td, th{
-        border: 1px black solid;
-    }
-
-
-    #locationName {
-        position: relative;
-        top: 8px;
-        left: 20px;
-    }
 
 </style>

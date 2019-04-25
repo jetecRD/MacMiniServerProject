@@ -692,7 +692,7 @@ class Dropbox
     }
 
     /**
-     * Save a specified URL into a file in user's Dropbox
+     * Save a specified URL into a file in username's Dropbox
      *
      * @param  string $path Path where the URL will be saved
      * @param  string $url  URL to be saved
@@ -724,7 +724,7 @@ class Dropbox
     }
 
     /**
-     * Save a specified URL into a file in user's Dropbox
+     * Save a specified URL into a file in username's Dropbox
      *
      * @param $asyncJobId
      *
@@ -1251,7 +1251,7 @@ class Dropbox
     }
 
     /**
-     * Get Space Usage for the current user's account
+     * Get Space Usage for the current username's account
      *
      * @link https://www.dropbox.com/developers/documentation/http/documentation#users-get_space_usage
      *

@@ -25,7 +25,7 @@ class Account extends BaseModel
     protected $email;
 
     /**
-     * Whether the user has verified their e-mail address
+     * Whether the username has verified their e-mail address
      *
      * @var boolean
      */
@@ -39,7 +39,7 @@ class Account extends BaseModel
     protected $profile_photo_url;
 
     /**
-     * Whether the user has been disabled
+     * Whether the username has been disabled
      *
      * @var boolean
      */
@@ -205,7 +205,7 @@ class Account extends BaseModel
     }
 
     /**
-     * Get user's referral link
+     * Get username's referral link
      *
      * @return string
      */

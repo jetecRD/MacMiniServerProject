@@ -95,10 +95,10 @@ class OAuth2Client
     /**
      * Get the OAuth2 Authorization URL
      *
-     * @param string $redirectUri Callback URL to redirect user after authorization.
+     * @param string $redirectUri Callback URL to redirect username after authorization.
      *                            If null is passed, redirect_uri will be omitted
      *                            from the url and the code will be presented directly
-     *                            to the user.
+     *                            to the username.
      * @param string $state       CSRF Token
      * @param array  $params      Additional Params
      *

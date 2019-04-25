@@ -41,7 +41,7 @@ class Uri implements UriInterface
     /** @var string Uri scheme. */
     private $scheme = '';
 
-    /** @var string Uri user info. */
+    /** @var string Uri username info. */
     private $userInfo = '';
 
     /** @var string Uri host. */
@@ -542,7 +542,7 @@ class Uri implements UriInterface
         $this->scheme = isset($parts['scheme'])
             ? $this->filterScheme($parts['scheme'])
             : '';
-        $this->userInfo = isset($parts['user']) ? $parts['user'] : '';
+        $this->userInfo = isset($parts['username']) ? $parts['username'] : '';
         $this->host = isset($parts['host'])
             ? $this->filterHost($parts['host'])
             : '';

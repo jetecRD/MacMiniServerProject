@@ -20,7 +20,7 @@ class FolderMetadata extends BaseModel
     protected $name;
 
     /**
-     * The lowercased full path in the user's Dropbox.
+     * The lowercased full path in the username's Dropbox.
      * This always starts with a slash.
      *
      * @var string

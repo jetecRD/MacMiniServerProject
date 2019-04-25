@@ -1675,9 +1675,9 @@ class SupportCollectionTest extends TestCase
     public function testGroupByClosureWhereItemsHaveMultipleGroups()
     {
         $data = new Collection([
-            ['user' => 1, 'roles' => ['Role_1', 'Role_3']],
-            ['user' => 2, 'roles' => ['Role_1', 'Role_2']],
-            ['user' => 3, 'roles' => ['Role_1']],
+            ['username' => 1, 'roles' => ['Role_1', 'Role_3']],
+            ['username' => 2, 'roles' => ['Role_1', 'Role_2']],
+            ['username' => 3, 'roles' => ['Role_1']],
         ]);
 
         $result = $data->groupBy(function ($item) {
@@ -1686,15 +1686,15 @@ class SupportCollectionTest extends TestCase
 
         $expected_result = [
             'Role_1' => [
-                ['user' => 1, 'roles' => ['Role_1', 'Role_3']],
-                ['user' => 2, 'roles' => ['Role_1', 'Role_2']],
-                ['user' => 3, 'roles' => ['Role_1']],
+                ['username' => 1, 'roles' => ['Role_1', 'Role_3']],
+                ['username' => 2, 'roles' => ['Role_1', 'Role_2']],
+                ['username' => 3, 'roles' => ['Role_1']],
             ],
             'Role_2' => [
-                ['user' => 2, 'roles' => ['Role_1', 'Role_2']],
+                ['username' => 2, 'roles' => ['Role_1', 'Role_2']],
             ],
             'Role_3' => [
-                ['user' => 1, 'roles' => ['Role_1', 'Role_3']],
+                ['username' => 1, 'roles' => ['Role_1', 'Role_3']],
             ],
         ];
 
@@ -1704,9 +1704,9 @@ class SupportCollectionTest extends TestCase
     public function testGroupByClosureWhereItemsHaveMultipleGroupsPreservingKeys()
     {
         $data = new Collection([
-            10 => ['user' => 1, 'roles' => ['Role_1', 'Role_3']],
-            20 => ['user' => 2, 'roles' => ['Role_1', 'Role_2']],
-            30 => ['user' => 3, 'roles' => ['Role_1']],
+            10 => ['username' => 1, 'roles' => ['Role_1', 'Role_3']],
+            20 => ['username' => 2, 'roles' => ['Role_1', 'Role_2']],
+            30 => ['username' => 3, 'roles' => ['Role_1']],
         ]);
 
         $result = $data->groupBy(function ($item) {
@@ -1715,15 +1715,15 @@ class SupportCollectionTest extends TestCase
 
         $expected_result = [
             'Role_1' => [
-                10 => ['user' => 1, 'roles' => ['Role_1', 'Role_3']],
-                20 => ['user' => 2, 'roles' => ['Role_1', 'Role_2']],
-                30 => ['user' => 3, 'roles' => ['Role_1']],
+                10 => ['username' => 1, 'roles' => ['Role_1', 'Role_3']],
+                20 => ['username' => 2, 'roles' => ['Role_1', 'Role_2']],
+                30 => ['username' => 3, 'roles' => ['Role_1']],
             ],
             'Role_2' => [
-                20 => ['user' => 2, 'roles' => ['Role_1', 'Role_2']],
+                20 => ['username' => 2, 'roles' => ['Role_1', 'Role_2']],
             ],
             'Role_3' => [
-                10 => ['user' => 1, 'roles' => ['Role_1', 'Role_3']],
+                10 => ['username' => 1, 'roles' => ['Role_1', 'Role_3']],
             ],
         ];
 
@@ -1733,10 +1733,10 @@ class SupportCollectionTest extends TestCase
     public function testGroupByMultiLevelAndClosurePreservingKeys()
     {
         $data = new Collection([
-            10 => ['user' => 1, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_3']],
-            20 => ['user' => 2, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_2']],
-            30 => ['user' => 3, 'skilllevel' => 2, 'roles' => ['Role_1']],
-            40 => ['user' => 4, 'skilllevel' => 2, 'roles' => ['Role_2']],
+            10 => ['username' => 1, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_3']],
+            20 => ['username' => 2, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_2']],
+            30 => ['username' => 3, 'skilllevel' => 2, 'roles' => ['Role_1']],
+            40 => ['username' => 4, 'skilllevel' => 2, 'roles' => ['Role_2']],
         ]);
 
         $result = $data->groupBy([
@@ -1749,22 +1749,22 @@ class SupportCollectionTest extends TestCase
         $expected_result = [
             1 => [
                 'Role_1' => [
-                    10 => ['user' => 1, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_3']],
-                    20 => ['user' => 2, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_2']],
+                    10 => ['username' => 1, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_3']],
+                    20 => ['username' => 2, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_2']],
                 ],
                 'Role_3' => [
-                    10 => ['user' => 1, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_3']],
+                    10 => ['username' => 1, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_3']],
                 ],
                 'Role_2' => [
-                    20 => ['user' => 2, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_2']],
+                    20 => ['username' => 2, 'skilllevel' => 1, 'roles' => ['Role_1', 'Role_2']],
                 ],
             ],
             2 => [
                 'Role_1' => [
-                    30 => ['user' => 3, 'skilllevel' => 2, 'roles' => ['Role_1']],
+                    30 => ['username' => 3, 'skilllevel' => 2, 'roles' => ['Role_1']],
                 ],
                 'Role_2' => [
-                    40 => ['user' => 4, 'skilllevel' => 2, 'roles' => ['Role_2']],
+                    40 => ['username' => 4, 'skilllevel' => 2, 'roles' => ['Role_2']],
                 ],
             ],
         ];

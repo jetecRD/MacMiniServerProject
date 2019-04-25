@@ -19,8 +19,8 @@ class FileSharingInfo extends BaseModel
     protected $parent_shared_folder_id;
 
     /**
-     * The last user who modified the file.
-     * This field will be null if the user's account has been deleted.
+     * The last username who modified the file.
+     * This field will be null if the username's account has been deleted.
      *
      * @var string
      */
@@ -60,7 +60,7 @@ class FileSharingInfo extends BaseModel
     }
 
     /**
-     * Get the last user who modified the file.
+     * Get the last username who modified the file.
      *
      * @return string
      */

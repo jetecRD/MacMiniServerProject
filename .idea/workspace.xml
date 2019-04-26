@@ -2,189 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1fb5-ce9d-4863-988a-52ba3a736a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/jetec_rd.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requestTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/src/App.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/src/assets/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/src/plugins/vuetify.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/src/router.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/src/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/store/action.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/views/Tool.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KotlinPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/KotlinPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/guzzlehttp/guzzle/src/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/guzzlehttp/guzzle/src/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/guzzlehttp/psr7/src/Uri.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/guzzlehttp/psr7/src/Uri.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Authentication/OAuth2Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Authentication/OAuth2Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Dropbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Dropbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/DeletedMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/DeletedMetadata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileMetadata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileSharingInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileSharingInfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FolderMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FolderMetadata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/psr/http-message/src/UriInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/psr/http-message/src/UriInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LCDType/vendor/tightenco/collect/tests/Support/SupportCollectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/LCDType/vendor/tightenco/collect/tests/Support/SupportCollectionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/jquery/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/jquery/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/@types/jquery/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/AUTHORS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/bower.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/dist/jquery.slim.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/external/sizzle/dist/sizzle.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/.eslintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/jsonp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/load.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/parseXML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/nonce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/var/rquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/ajax/xhr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/attr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/classes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/attributes/val.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/callbacks.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/DOMEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/access.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/camelCase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/init.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/nodeName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/parseHTML.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready-no-deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/ready.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/readyException.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/stripAndCollapse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/toType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/core/var/rsingleTag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/addGetHookIf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/adjustCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/curCSS.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/hiddenVisibleSelectors.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/cssExpand.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/getStyles.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/isHiddenWithinTree.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rboxStyle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/rnumnonpx.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/css/var/swap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/Data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/acceptData.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataPriv.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/data/var/dataUser.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deferred/exceptionHook.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/deprecated.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/dimensions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/Tween.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/ajax.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/alias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/focusin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/event/trigger.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/amd.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/exports/global.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/_evalUrl.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/buildFragment.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/getAll.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/setGlobalEval.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rcheckableType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rscriptType.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/var/rtagName.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/manipulation/wrapMap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/offset.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/queue/delay.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-native.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector-sizzle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/selector.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/serialize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/findFilter.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/dir.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/rneedsContext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/ObjectFunctionString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/arr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/class2type.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/concat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/document.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/documentElement.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/fnToString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/getProto.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/hasOwn.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/indexOf.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isFunction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/isWindow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/pnum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/push.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rcssNum.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/rnothtmlwhite.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/slice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/support.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/var/toString.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/jquery/src/wrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/guzzlehttp/guzzle/src/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/guzzlehttp/guzzle/src/Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/guzzlehttp/guzzle/src/Cookie/CookieJarInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/guzzlehttp/psr7/src/Uri.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/guzzlehttp/psr7/src/Uri.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Authentication/OAuth2Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Authentication/OAuth2Client.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Dropbox.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Dropbox.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/Account.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/DeletedMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/DeletedMetadata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileMetadata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileSharingInfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FileSharingInfo.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FolderMetadata.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/kunalvarma05/dropbox-php-sdk/src/Dropbox/Models/FolderMetadata.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/psr/http-message/src/UriInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/psr/http-message/src/UriInterface.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php_test/vendor/tightenco/collect/tests/Support/SupportCollectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/php_test/vendor/tightenco/collect/tests/Support/SupportCollectionTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/weather/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/weather/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/weather/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/weather/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/app/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/assets/reload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/assets/sidebar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/components/HelloWorld.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/components/HelloWorld.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/components/Main.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/extensions.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/resource.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/router/router-button.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/router/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/store/action.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/store/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/views/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/views/About.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/router/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/store/store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/src/views/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/views/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/views/Login.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/src/views/Weather.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/views/Weather.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/views/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/weather/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -212,12 +39,12 @@
     <favorites_list name="www" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather/src/components/HelloWorld.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="-323">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
             </state>
           </provider>
         </entry>
@@ -225,8 +52,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather/src/views/Weather.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+            <state relative-caret-position="304">
+              <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/weather/src/store/store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="426">
+              <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -234,17 +73,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather/src/views/Home.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+            <state relative-caret-position="434">
+              <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/weather/src/router/router.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/weather/src/App.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -259,8 +107,8 @@
         <option value="HTML File" />
         <option value="CSS File" />
         <option value="XSLT Stylesheet" />
-        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -288,6 +136,10 @@
       <find>serve</find>
       <find>Table</find>
       <find>defaults</find>
+      <find>inspire</find>
+      <find>props</find>
+      <find>v-text-field</find>
+      <find>v-input__slot</find>
     </findStrings>
     <replaceStrings>
       <replace>//</replace>
@@ -304,8 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SpreadSheet.html" />
-        <option value="$PROJECT_DIR$/DataTable.html" />
         <option value="$PROJECT_DIR$/Web.html" />
         <option value="$PROJECT_DIR$/history.html" />
         <option value="$PROJECT_DIR$/history-2.html" />
@@ -337,24 +187,26 @@
         <option value="$PROJECT_DIR$/weather/src/app/App.vue" />
         <option value="$PROJECT_DIR$/weather/src/router/router-button.vue" />
         <option value="$PROJECT_DIR$/weather/src/views/Signup.vue" />
-        <option value="$PROJECT_DIR$/weather/src/store/action.js" />
         <option value="$PROJECT_DIR$/weather/src/views/actions/home.js" />
         <option value="$PROJECT_DIR$/weather/src/views/About.vue" />
         <option value="$PROJECT_DIR$/KotlinPost.php" />
         <option value="$PROJECT_DIR$/weather/src/store/requestTest.php" />
-        <option value="$PROJECT_DIR$/weather/src/router/router.js" />
         <option value="$PROJECT_DIR$/weather/postcss.config.js" />
         <option value="$PROJECT_DIR$/weather/src/views/Login.vue" />
-        <option value="$PROJECT_DIR$/weather/src/store/store.js" />
         <option value="$PROJECT_DIR$/requestTest.php" />
         <option value="$PROJECT_DIR$/weather/src/views/SignUp.vue" />
         <option value="$PROJECT_DIR$/weather/src/main.js" />
-        <option value="$PROJECT_DIR$/weather/src/views/Home.vue" />
         <option value="$PROJECT_DIR$/weather/src/components/Weather.vue" />
         <option value="$PROJECT_DIR$/../weather/src/views/Weather.vue" />
         <option value="$PROJECT_DIR$/weather/src/components/HelloWorld.vue" />
-        <option value="$PROJECT_DIR$/weather/src/views/Weather.vue" />
+        <option value="$PROJECT_DIR$/weather/src/components/ToolBar.vue" />
+        <option value="$PROJECT_DIR$/weather/src/views/Tool.vue" />
+        <option value="$PROJECT_DIR$/weather/src/store/action.js" />
+        <option value="$PROJECT_DIR$/weather/src/router/router.js" />
         <option value="$PROJECT_DIR$/weather/src/App.vue" />
+        <option value="$PROJECT_DIR$/weather/src/views/Home.vue" />
+        <option value="$PROJECT_DIR$/weather/src/views/Weather.vue" />
+        <option value="$PROJECT_DIR$/weather/src/store/store.js" />
       </list>
     </option>
   </component>
@@ -448,6 +300,20 @@
               <item name="www" type="462c0819:PsiDirectoryNode" />
               <item name="weather" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="router" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="store" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="www" type="b2602c69:ProjectViewProjectNode" />
+              <item name="www" type="462c0819:PsiDirectoryNode" />
+              <item name="weather" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -473,19 +339,19 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/weather/src/store" />
+      <recent name="$PROJECT_DIR$/weather/src/router" />
+      <recent name="$PROJECT_DIR$/weather/src/app" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/weather/src/views" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/weather/src" />
       <recent name="$PROJECT_DIR$/weather/src/store" />
       <recent name="$PROJECT_DIR$/weather/src/assets" />
       <recent name="$PROJECT_DIR$/weather/src/components" />
       <recent name="$PROJECT_DIR$/weather/src/app" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/weather/src/app" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/weather/src/views" />
-      <recent name="$PROJECT_DIR$/weather/src/store" />
-      <recent name="$PROJECT_DIR$/weather/src/components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -563,7 +429,8 @@
       <workItem from="1556178463531" duration="272000" />
       <workItem from="1556180280874" duration="3109000" />
       <workItem from="1556184189832" duration="77000" />
-      <workItem from="1556184973946" duration="1369000" />
+      <workItem from="1556184973946" duration="1450000" />
+      <workItem from="1556236974873" duration="26622000" />
     </task>
     <task id="LOCAL-00001" summary="vue lab">
       <created>1554976535139</created>
@@ -586,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555322105933</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="4/25">
+      <created>1556186667815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1556186667815</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="322622000" />
+    <option name="totallyTimeSpent" value="349325000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -605,7 +479,7 @@
     <frame x="0" y="23" width="1920" height="971" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49651164" visible="true" weight="0.23768736" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49651164" visible="true" weight="0.24089935" />
       <window_info id="Structure" order="1" sideWeight="0.50348836" side_tool="true" weight="0.22055675" />
       <window_info id="Favorites" order="2" sideWeight="0.50348836" side_tool="true" weight="0.22055675" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32905483" />
@@ -618,7 +492,7 @@
       <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.49925816" weight="0.3292978" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32906976" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32905483" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50074184" side_tool="true" weight="0.32790697" />
       <window_info anchor="bottom" id="TypeScript" order="13" show_stripe_button="false" weight="0.3292978" />
@@ -631,29 +505,58 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="vue lab" />
     <MESSAGE value="4/12" />
     <MESSAGE value="4/15" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/15" />
+    <MESSAGE value="4/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="4/25" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/server/create-renderer.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/server/render.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/server/render-context.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/server/util.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/server/webpack-plugin/server.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/server/webpack-plugin/client.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/server/webpack-plugin/util.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/core/config.js" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vue/src/core/components/index.js" />
-    <entry file="file://$PROJECT_DIR$/weather/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/weather/.browserslistrc" />
-    <entry file="file://$PROJECT_DIR$/weather/babel.config.js" />
     <entry file="file://$PROJECT_DIR$/weather/yarn.lock" />
     <entry file="file://$PROJECT_DIR$/weather/README.md" />
     <entry file="file:///usr/local/var/www/weather/postcss.config.js">
@@ -678,12 +581,8 @@
     <entry file="file://$PROJECT_DIR$/weather/src/views/Login.vue" />
     <entry file="file://$PROJECT_DIR$/weather/postcss.config.js" />
     <entry file="file://$PROJECT_DIR$/requestTest.php" />
-    <entry file="file://$PROJECT_DIR$/weather/src/store/store.js" />
     <entry file="file://$PROJECT_DIR$/weather/src/router/router.js" />
     <entry file="file://$PROJECT_DIR$/weather/src/views/SignUp.vue" />
-    <entry file="file://$PROJECT_DIR$/weather/package.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/assets/logo.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -694,22 +593,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/app/App.vue" />
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/dist/vuetify.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="2972" column="1" selection-start-line="2972" selection-start-column="1" selection-end-line="2972" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -730,20 +613,6 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/web-components.rnc" />
     <entry file="file://$PROJECT_DIR$/weather/src/NewComponent.vue" />
-    <entry file="file://$PROJECT_DIR$/weather/src/components/HelloWorld.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/es5/components/VGrid/VContent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="79">
@@ -751,17 +620,136 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/views/Weather.vue">
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        <state relative-caret-position="247">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/src/components/VIcon/VIcon.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1893">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/src/components/VNavigationDrawer/VNavigationDrawer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2880">
+          <caret line="180" column="13" lean-forward="true" selection-start-line="180" selection-start-column="13" selection-end-line="180" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/components/ToolBar.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="30" lean-forward="true" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/src/components/VToolbar/VToolbar.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="30" column="2" selection-start-line="30" selection-start-column="2" selection-end-line="30" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/dist/vuetify.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="4" column="151392" selection-start-line="4" selection-start-column="151392" selection-end-line="4" selection-end-column="151392" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTable.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/history.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-573" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/src/components/VToolbar/VToolbarSideIcon.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/store/action.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/About.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/dist/vuetify.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="3573" column="69" selection-start-line="3573" selection-end-line="3573" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Tool.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-64">
+          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/App.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Home.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="81" column="21" selection-start-line="81" selection-start-column="21" selection-end-line="81" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Weather.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="52" lean-forward="true" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/components/HelloWorld.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-323">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/store/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="63" column="12" lean-forward="true" selection-start-line="63" selection-start-column="12" selection-end-line="63" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -5,9 +5,20 @@ import Home from '../views/Home.vue'
 Vue.use(Router)
 
 export default new Router({
+    mode: 'history',
     routes: [
         {
             path: '/',
+            name: 'login',
+            component: () => import('../views/Login.vue')
+        },
+        {
+            path: '/signUp',
+            name: 'signUp',
+            component: () => import('../views/SignUp.vue')
+        },
+        {
+            path: '/home',
             component: Home,
             children: [
                 {

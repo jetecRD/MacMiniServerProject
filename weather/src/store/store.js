@@ -5,7 +5,7 @@ Vue.use(Vuex);
 
 
 const mutations = {
-  plus, minus, setWeather, setUser
+  setWeather, setToken, setUser
 };
 const actions = {
   getWeatherData
@@ -14,12 +14,13 @@ const actions = {
 export default new Vuex.Store({
 
   state: {
-    account: "",
-    password: "",
-    count: 0,
-    msg: "Count",
     weather: {},
-    token: ""
+    key: {
+      token: "token",
+      user: "user"
+    },
+    token: null,
+    user: null
   },
   mutations: {
     ...mutations
@@ -34,19 +35,23 @@ function setWeather(state, data) {
   state.weather = data
 }
 
-function setUser(state, user) {
-  state.account = user.email
-  state.password = user.password
+function setUser(state, data) {
+  state.user = {
+    username: data.username,
+    email: data.email,
+    id: data.id
+  }
 }
 
-function plus(state, num = 1) {
-  if (state.count >= 10) {return}
-  state.count += num;
+function setToken(state, data) {
+  state.token = {
+    refresh: data.refresh,
+    access: data.access
+  }
 }
-
-function minus(state, num = 1) {
-  if (state.count <= 0) {return}
-  state.count -= num;
+function clean(state) {
+  state.token = null
+  state.user = null
 }
 
 async function getWeatherData({commit}) {

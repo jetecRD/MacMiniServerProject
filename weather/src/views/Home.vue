@@ -13,6 +13,11 @@
             {{l.title}}
           </v-list-tile-title>
         </v-list-tile>
+        <v-list-tile @click="logout">
+          <v-list-tile-title class="text-align-center">
+            aa
+          </v-list-tile-title>
+        </v-list-tile>
       </v-list>
     </v-navigation-drawer>
 
@@ -49,51 +54,58 @@
 
 <script>
 
-    import * as action from "../store/action"
+  import * as action from "../store/action"
+  import {mapState} from 'vuex'
 
-    export default {
-        data: function () {
-            return {
-                links: [
-                    {title: "Home", path: "/"},
-                    {title: "About", path: "/about"}
-                ],
-                drawer: {
-                    open: false,
-                    clipped: true,
-                    fixed: true,
-                },
-                toolbar: {
-                    clipped_left: true,
-                    fixed: true
-                },
-                transition: "transition: 400ms",
-                icon: [
-                    'mdi-emoticon'
-                ],
-                search: {
-                    show: false,
-                    autofocus: true,
-                    value: ""
-                }
+  const computed = mapState({token: "token"})
 
-            }
+
+  export default {
+    computed: computed,
+    data: function () {
+      return {
+        links: [
+          {title: "Home", path: "/home"},
+          {title: "About", path: "/about"}
+        ],
+        drawer: {
+          open: false,
+          clipped: true,
+          fixed: true,
         },
-        components: {
+        toolbar: {
+          clipped_left: true,
+          fixed: true
         },
-        methods: {
-            refresh: () => action.getWeather(),
-            onSearch() {
-                this.search.show = !this.search.show
-            },
-            searching() {
-                console.log(this.search.value)
-            }
-        },
-        mounted() {
-            action.getWeather()
+        transition: "transition: 400ms",
+        icon: [
+          'mdi-emoticon'
+        ],
+        search: {
+          show: false,
+          autofocus: true,
+          value: ""
         }
+
+      }
+    },
+    components: {},
+    methods: {
+      refresh: () => action.getWeather(),
+      onSearch() {
+        this.search.show = !this.search.show
+      },
+      searching() {
+        console.log(this.search.value)
+      },
+      logout() {
+        console.log(this.token)
+      }
+    },
+    mounted() {
+      action.getWeather()
     }
+  }
 
 </script>
 

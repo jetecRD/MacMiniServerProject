@@ -36,7 +36,8 @@
       <v-flex xs11 lg4>
         <v-btn class="btn-size"
                :color="btn.color"
-               @click="login">Login
+               @click="login">
+          Login
         </v-btn>
       </v-flex>
     </v-layout>
@@ -44,7 +45,8 @@
       <v-flex xs11 lg4>
         <v-btn class="btn-size"
                :color="btn.color"
-               to="/signUp">SignUp
+               to="/signUp">
+          SignUp
         </v-btn>
       </v-flex>
     </v-layout>
@@ -52,9 +54,8 @@
 </template>
 
 <script>
-  import api from '../store/Api'
+  import ApiManager from '../store/Api'
   import {mapState} from 'vuex'
-  import {setToken, setUser} from '../store/action'
 
   const computed = mapState({key: "key"})
 
@@ -131,20 +132,18 @@
         }
       },
       async login() {
+
+        let api = new ApiManager()
         if (!this.check()) {
           return
         }
         const response = await api.login(this.user.value, this.password.value)
-        sessionStorage.setItem(this.key.token, JSON.stringify({
-          refresh: response.data.refresh,
-          access: response.data.access
-        }))
-        console.log(sessionStorage.getItem(this.key.token))
+        ApiManager.saveToken(response.data)
         const info = await api.getInfo(response.data.access)
-        console.log(this.token)
         if (info.status === 200) {
-          setUser(info.data)
-          this.$router.push("/home")
+          ApiManager.saveInfo(info.data)
+          this.$router.push("/")
+
         }
       }
     }

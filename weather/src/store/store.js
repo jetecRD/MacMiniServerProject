@@ -1,12 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import axios from 'axios'
-Vue.use(Vuex);
+
+Vue.use(Vuex)
 
 
 const mutations = {
-  setWeather, setToken, setUser
-};
+  setWeather, filterWeather
+}
 const actions = {
   getWeatherData
 }
@@ -14,13 +15,10 @@ const actions = {
 export default new Vuex.Store({
 
   state: {
-    weather: {},
-    key: {
-      token: "token",
-      user: "user"
+    weather: {
+      origin: {},
+      filter: {}
     },
-    token: null,
-    user: null
   },
   mutations: {
     ...mutations
@@ -32,30 +30,15 @@ export default new Vuex.Store({
 })
 
 function setWeather(state, data) {
-  state.weather = data
+  state.weather.origin = data
+  state.weather.filter = data
 }
 
-function setUser(state, data) {
-  state.user = {
-    username: data.username,
-    email: data.email,
-    id: data.id
-  }
-}
-
-function setToken(state, data) {
-  state.token = {
-    refresh: data.refresh,
-    access: data.access
-  }
-}
-function clean(state) {
-  state.token = null
-  state.user = null
+function filterWeather(state, data) {
+  state.weather.filter = data
 }
 
 async function getWeatherData({commit}) {
-  // const vue = new Vue()
   const url = "https://opendata.cwb.gov.tw/fileapi/v1/opendataapi/F-C0032-001?Authorization=rdec-key-123-45678-011121314&format=JSON"
   let a = []
   await axios.get(url).then(
@@ -64,14 +47,11 @@ async function getWeatherData({commit}) {
         for (let i of data) {
           let m = {}
           m["locationName"] = i.locationName
-          //
           m["elementKeys"] = i.weatherElement.map($0 => $0.elementName)
-          //
           m["weatherElement"] = {}
           for (let e of i.weatherElement) {
             m.weatherElement[e.elementName] = e.time
           }
-
           a.push(m)
         }
       },

@@ -11,13 +11,20 @@ const url = {
   delete: basic + 'auth/users/delete/'
 
 }
+const key = {
+  token: {
+    access: "token_access",
+    refresh: "token_refresh"
+  },
+  info: "info"
+}
 
-class ApiManager {
+export default class ApiManager {
   constructor() {
 
   }
 
-  async signUp(name, email, password) {
+  async register(name, email, password) {
     let resp = null
 
     await axios.post(url.signUp, {
@@ -43,7 +50,7 @@ class ApiManager {
       //success
       resp = response
     }, reason => {
-      //success
+      //failed
       resp = reason.response
     })
     return resp
@@ -57,8 +64,22 @@ class ApiManager {
       //success
       resp = response.status === 200
     }, reason => {
-      //success
+      //failed
       resp = reason.response.status === 200
+    })
+    return resp
+  }
+
+  async refresh(token) {
+    let resp = null
+    await axios.post(url.refreshToken, {
+      'refresh': token
+    }).then(response => {
+      //success
+      resp = response
+    }, reason => {
+      //failed
+      resp = reason.response
     })
     return resp
   }
@@ -73,7 +94,7 @@ class ApiManager {
       //success
       resp = response
     }, reason => {
-      //success
+      //failed
       resp = reason.response
     })
     return resp
@@ -82,7 +103,9 @@ class ApiManager {
 
   async delete(token, password) {
     let resp = null
-    await axios.get(url.info, {
+    await axios.post(url.info, {
+      "current_password": password
+    }, {
       headers: {
         'Authorization': 'Bearer ' + token
       }
@@ -90,11 +113,38 @@ class ApiManager {
       //success
       resp = response
     }, reason => {
-      //success
+      //failed
       resp = reason.response
     })
     return resp
   }
-}
 
-export default new ApiManager()
+  static saveToken(token) {
+    if (token.access) {
+      sessionStorage.setItem(key.token.access, token.access)
+    }
+    if (token.refresh) {
+      sessionStorage.setItem(key.token.refresh, token.refresh)
+    }
+  }
+
+  static saveInfo(info) {
+    if (info) {
+      sessionStorage.setItem(key.info, JSON.stringify(info))
+    }
+  }
+
+  static loadAccessToken() {
+    return sessionStorage.getItem(key.token.access)
+  }
+
+  static loadRefreshToken() {
+    return sessionStorage.getItem(key.token.refresh)
+  }
+
+
+  static loadInfo() {
+    const info = sessionStorage.getItem(key.info)
+    return JSON.parse(info)
+  }
+}

@@ -1,4 +1,4 @@
-<template>
+<template  @click="console.log('AAA')">
   <v-app>
 
     <v-navigation-drawer app
@@ -8,14 +8,14 @@
                          :permanent="drawer.permanent"
                          v-model="drawer.open">
       <v-list>
-        <v-list-tile v-for="l in links" :key=l.title @click="$router.push(l.path)">
-          <v-list-tile-title class="text-align-center ">
+        <v-list-tile v-for="l in links" :key=l.title @click="push(l)">
+          <v-list-tile-title class="text-md-center">
             {{l.title}}
           </v-list-tile-title>
         </v-list-tile>
         <v-list-tile @click="logout">
-          <v-list-tile-title class="text-align-center">
-            aa
+          <v-list-tile-title class="text-md-center">
+            Logout
           </v-list-tile-title>
         </v-list-tile>
       </v-list>
@@ -26,22 +26,29 @@
                :fixed="toolbar.fixed">
       <v-toolbar-side-icon @click="drawer.open = !drawer.open"></v-toolbar-side-icon>
       <v-spacer/>
-      <v-toolbar-title v-if="!search.show" class="display-1">Weather</v-toolbar-title>
+      <v-toolbar-title v-if="!search.show" class="display-1">{{toolbar.title}}</v-toolbar-title>
       <v-text-field v-else
+                    id="search"
                     @keyup="searching"
-                    class="search"
+                    class="search title"
                     color="blue"
                     v-model="search.value"
                     :autofocus="search.autofocus">
       </v-text-field>
       <v-spacer/>
-
-      <v-btn icon @click="onSearch">
+      <v-btn icon @click="onSearch" v-if="buttonIsShow()">
         <v-icon>search</v-icon>
       </v-btn>
-      <v-btn icon @click="refresh">
+      <v-btn icon v-else style="pointer-events: none">
+        <v-icon></v-icon>
+      </v-btn>
+      <v-btn icon @click="refresh" v-if="buttonIsShow()">
         <v-icon>refresh</v-icon>
       </v-btn>
+      <v-btn icon v-else style="pointer-events: none">
+        <v-icon></v-icon>
+      </v-btn>
+
     </v-toolbar>
 
 
@@ -54,10 +61,10 @@
 
 <script>
 
-  import * as action from "../store/action"
+  import * as action from "../../store/action"
   import {mapState} from 'vuex'
 
-  const computed = mapState({token: "token"})
+  const computed = mapState({weather: "weather"})
 
 
   export default {
@@ -65,7 +72,7 @@
     data: function () {
       return {
         links: [
-          {title: "Home", path: "/home"},
+          {title: "Weather", path: "/"},
           {title: "About", path: "/about"}
         ],
         drawer: {
@@ -75,7 +82,8 @@
         },
         toolbar: {
           clipped_left: true,
-          fixed: true
+          fixed: true,
+          title: this.$router.currentRoute.name.firstUpperCase()
         },
         transition: "transition: 400ms",
         icon: [
@@ -85,21 +93,50 @@
           show: false,
           autofocus: true,
           value: ""
-        }
+        },
+        buttonIsShow() {
+          return this.$router.currentRoute.name === 'weather'
+        },
+
 
       }
     },
     components: {},
     methods: {
-      refresh: () => action.getWeather(),
+      push(l) {
+        this.toolbar.title = l.title
+        this.$router.push(l.path)
+      },
+      refresh() {
+        console.log()
+        this.search.show = false
+        this.search.value = ""
+        action.getWeather()
+      },
       onSearch() {
         this.search.show = !this.search.show
+        if (this.search.value.length <= 0) {
+          action.filterWeather(this.weather.origin)
+        }
       },
-      searching() {
-        console.log(this.search.value)
+      searching(key) {
+        if (key.keyCode === 27) {
+          this.onSearch()
+        }
+        const markedText = /[\u3105-\u3129\u02CA\u02C7\u02CB\u02D9]/   //注音+聲調
+        if (markedText.test(this.search.value.slice(-1))) {
+          return
+        }
+        if (this.search.value.length > 0) {
+          const w = this.weather.origin.filter(w => w.locationName.includes(this.search.value))
+          action.filterWeather(w)
+        } else {
+          action.filterWeather(this.weather.origin)
+        }
       },
       logout() {
-        console.log(this.token)
+        sessionStorage.clear()
+        this.$router.push("/login")
       }
     },
     mounted() {
@@ -107,12 +144,13 @@
     }
   }
 
+
 </script>
 
 <style scoped>
   .search {
     width: 70%;
-    border-radius: 20px !important;
   }
+
 
 </style>

@@ -1,9 +1,9 @@
-<template >
-  <v-container fluid fill-height >
-    <v-layout justify-start  column >
-      <v-flex class="mb-5"   v-for="w in weather" :key="w.locationName">
+<template>
+  <v-container fluid fill-height>
+    <v-layout justify-start column>
+      <v-flex class="mb-5" v-for="w in weather.filter" :key="w.locationName">
         <v-card class="card">
-          <v-card-text class="title" ><h2 class="ml-3 ">{{w.locationName}}</h2></v-card-text>
+          <v-card-text class="title"><h2 class="ml-3 ">{{w.locationName}}</h2></v-card-text>
           <table class="table full-width">
             <tr>
               <th>開始時間</th>
@@ -16,7 +16,9 @@
               <td> {{timeFormatted(v.startTime)}}</td>
               <td> {{timeFormatted(v.endTime)}}</td>
               <td> {{w.weatherElement.Wx[i].parameter.parameterName}}<br/>
-                {{w.weatherElement.MinT[i].parameter.parameterName}} ~ {{w.weatherElement.MaxT[i].parameter.parameterName}}</td>
+                {{w.weatherElement.MinT[i].parameter.parameterName}} ~
+                {{w.weatherElement.MaxT[i].parameter.parameterName}}
+              </td>
               <td> {{w.weatherElement.CI[i].parameter.parameterName}}</td>
               <td> {{w.weatherElement.PoP[i].parameter.parameterName}}%</td>
             </tr>
@@ -28,24 +30,24 @@
 </template>
 
 <script>
-    import {mapState} from 'vuex'
-    const computed = mapState({weather: "weather"});
-    export default {
-        name: "Weather",
-        computed:computed,
-        data: function () {
-            return {
-            }
-        },
-        methods: {
-            timeFormatted(d) {
-                const date = new Date(d)
-                const df = require('date-format')
-                return df.asString('MM/dd-hh:mm', date)
+  import {mapState} from 'vuex'
 
-            }
-        }
+  const computed = mapState({weather: "weather"})
+  export default {
+    name: "Weather",
+    computed: computed,
+    data: function () {
+      return {}
+    },
+    methods: {
+      timeFormatted(d) {
+        const date = new Date(d)
+        const df = require('date-format')
+        return df.asString('MM/dd-hh:mm', date)
+
+      }
     }
+  }
 </script>
 
 <style scoped>
@@ -54,19 +56,24 @@
     text-align: center;
     border-collapse: collapse;
   }
-  .table th{
+
+  .table th {
     font-size: 19px;
     border-bottom: 1px black solid;
   }
+
   .table td {
     font-size: 16px;
   }
+
   .full-width {
     width: 100%;
   }
+
   .card {
     border-radius: 5px;
   }
+
   .title {
     width: 100%;
     padding: 10px;

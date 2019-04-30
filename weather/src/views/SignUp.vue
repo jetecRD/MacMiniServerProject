@@ -13,7 +13,7 @@
                       v-model="user.value">
 
           <template v-slot:label>
-            User Name
+            {{user.label}}
           </template>
         </v-text-field>
         <span class="red--text" v-text="user.err"></span>
@@ -26,7 +26,7 @@
                       class="mt-3">
 
           <template v-slot:label>
-            E-mail
+            {{email.label}}
           </template>
         </v-text-field>
         <span class="red--text" v-text="email.err"></span>
@@ -40,7 +40,7 @@
                       class="mt-3">
 
           <template v-slot:label>
-            Password
+            {{password.label}}
           </template>
         </v-text-field>
         <span class="red--text" v-text="password.err"></span>
@@ -68,7 +68,7 @@
 </template>
 
 <script>
-  import api from '../store/Api'
+  import ApiManager from '../store/Api'
 
   export default {
     name: "SignUp",
@@ -77,7 +77,7 @@
         err: "",
         user: {
           value: "",
-          placeholder: "User Name",
+          label: "User Name",
           err: "",
           color: "blue",
           type: "text",
@@ -93,7 +93,7 @@
         },
         email: {
           value: "",
-          placeholder: "example@google.com",
+          label: "E-mail",
           err: "",
           color: "blue",
           type: "email",
@@ -110,7 +110,7 @@
         ,
         password: {
           value: "",
-          placeholder: "password",
+          label: "Password",
           err: "",
           color: "blue",
           show: false,
@@ -140,13 +140,18 @@
       }
     },
     methods: {
+      check() {
+        return this.user.rules.check() &&
+            this.email.rules.check() &&
+            this.password.rules.check()
+      },
       async register() {
-        if (!this.user.rules.check() ||
-            !this.email.rules.check() ||
-            !this.password.rules.check()) {
-          return null
+        console.log(this.check())
+        let api = new ApiManager()
+        if (!this.check()) {
+          return
         }
-        const response = await api.signUp(this.user.value, this.email.value, this.password.value)
+        const response = await api.register(this.user.value, this.email.value, this.password.value)
         if (response.status === 400) {
           this.errMessage(response.data)
         } else if (response.data.id) {

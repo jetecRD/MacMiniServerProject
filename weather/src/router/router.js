@@ -1,41 +1,44 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from '../views/Home.vue'
+import Home from '../views/Home/Home.vue'
+import * as guard from './guard'
 
 Vue.use(Router)
 
 export default new Router({
-    mode: 'history',
-    routes: [
+  mode: 'history',
+  routes: [
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('../views/Login.vue')
+    },
+    {
+      path: '/signUp',
+      name: 'signUp',
+      component: () => import('../views/SignUp.vue')
+    },
+    {
+      path: '/',
+      component: Home,
+      beforeEnter: guard.homeGuard,
+      children: [
         {
-            path: '/',
-            name: 'login',
-            component: () => import('../views/Login.vue')
+          path: '',
+          name: 'weather',
+          component: () => import('../views/Home/Weather.vue')
         },
         {
-            path: '/signUp',
-            name: 'signUp',
-            component: () => import('../views/SignUp.vue')
-        },
-        {
-            path: '/home',
-            component: Home,
-            children: [
-                {
-                    path: '/',
-                    name: 'weather',
-                    component: () => import('../views/Weather.vue')
-                },
-                {
-                    path: '/about',
-                    name: 'about',
-                    // route level code-splitting
-                    // this generates a separate chunk (about.[hash].js) for this route
-                    // which is lazy-loaded when the route is visited.
-                    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
-                }
-            ]
-        },
+          path: '/about',
+          name: 'about',
+          // route level code-splitting
+          // this generates a separate chunk (about.[hash].js) for this route
+          // which is lazy-loaded when the route is visited.
+          component: () => import(/* webpackChunkName: "about" */ '../views/Home/About.vue')
+        }
+      ]
+    },
 
-    ]
+  ]
+
 })

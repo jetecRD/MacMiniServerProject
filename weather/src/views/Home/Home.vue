@@ -1,4 +1,4 @@
-<template  @click="console.log('AAA')">
+<template>
   <v-app>
 
     <v-navigation-drawer app
@@ -30,9 +30,11 @@
       <v-text-field v-else
                     id="search"
                     @keyup="searching"
+                    @click:clear="clear"
                     class="search title"
                     color="blue"
                     v-model="search.value"
+                    clearable
                     :autofocus="search.autofocus">
       </v-text-field>
       <v-spacer/>
@@ -51,9 +53,9 @@
 
     </v-toolbar>
 
-
     <v-content app
-               :class="drawer.open ? 'pl-5' : ''">
+               :class="drawer.open ? 'pl-5' : ''"
+    >
       <router-view/>
     </v-content>
   </v-app>
@@ -64,10 +66,13 @@
   import * as action from "../../store/action"
   import {mapState} from 'vuex'
 
-  const computed = mapState({weather: "weather"})
+  const computed = {
+    ...mapState({weather: "weather"})
+  }
 
 
   export default {
+    name: "home",
     computed: computed,
     data: function () {
       return {
@@ -119,6 +124,9 @@
           action.filterWeather(this.weather.origin)
         }
       },
+      clear() {
+        action.filterWeather(this.weather.origin)
+      },
       searching(key) {
         if (key.keyCode === 27) {
           this.onSearch()
@@ -131,12 +139,14 @@
           const w = this.weather.origin.filter(w => w.locationName.includes(this.search.value))
           action.filterWeather(w)
         } else {
-          action.filterWeather(this.weather.origin)
+          this.clear()
         }
       },
       logout() {
-        sessionStorage.clear()
-        this.$router.push("/login")
+        if (window.confirm("Do you want to sign out?")) {
+          sessionStorage.clear()
+          this.$router.push("/login")
+        }
       }
     },
     mounted() {
@@ -148,6 +158,9 @@
 </script>
 
 <style scoped>
+  html {
+    background-color: gray;
+  }
   .search {
     width: 70%;
   }

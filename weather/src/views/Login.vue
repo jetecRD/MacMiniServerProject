@@ -30,6 +30,7 @@
           </template>
         </v-text-field>
 
+        <span class="red--text">{{err}}</span>
       </v-flex>
     </v-layout>
     <v-layout justify-center mt-4>
@@ -49,21 +50,19 @@
           SignUp
         </v-btn>
       </v-flex>
+
     </v-layout>
   </v-container>
 </template>
 
 <script>
   import ApiManager from '../store/Api'
-  import {mapState} from 'vuex'
-
-  const computed = mapState({key: "key"})
 
   export default {
     name: "Login",
-    computed: computed,
     data: function () {
       return {
+        err: "",
         user: {
           value: "",
           label: "User Name",
@@ -72,10 +71,10 @@
           pattern: /^.+$/,
           rules: {
             format: value => {
-              return this.user.pattern.test(value) || 'Empty Name'
+              return value.length > 0 || 'Empty Name'
             },
             check: () => {
-              return this.user.pattern.test(this.user.value)
+              return this.user.value.length > 0
             }
           }
         },
@@ -137,13 +136,17 @@
         if (!this.check()) {
           return
         }
+        this.err = ""
         const response = await api.login(this.user.value, this.password.value)
-        ApiManager.saveToken(response.data)
-        const info = await api.getInfo(response.data.access)
-        if (info.status === 200) {
-          ApiManager.saveInfo(info.data)
-          this.$router.push("/")
-
+        if (response.status === 200) {
+          ApiManager.saveToken(response.data)
+          const info = await api.getInfo(response.data.access)
+          if (info.status === 200) {
+            ApiManager.saveInfo(info.data)
+            this.$router.push("/")
+          }
+        }else {
+          this.err = "Username or password is wrong, please check again."
         }
       }
     }

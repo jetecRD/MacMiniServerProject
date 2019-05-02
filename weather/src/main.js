@@ -10,6 +10,8 @@ Vue.config.productionTip = false
 
 router.beforeEach(globalGuard)
 
+// Vue.component('router-button',() => import('./components/RouterButton'))
+
 new Vue({
   router,
   store,

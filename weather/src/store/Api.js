@@ -103,13 +103,16 @@ export default class ApiManager {
 
   async delete(token, password) {
     let resp = null
-    await axios.post(url.info, {
-      "current_password": password
-    }, {
-      headers: {
-        'Authorization': 'Bearer ' + token
-      }
-    }).then(response => {
+    console.log(token, password)
+    await axios.post(url.delete,
+        {
+          "current_password": password
+        },
+        {
+          headers: {
+            'Authorization': 'Bearer ' + token
+          }
+        }).then(response => {
       //success
       resp = response
     }, reason => {
@@ -118,6 +121,7 @@ export default class ApiManager {
     })
     return resp
   }
+
 
   static saveToken(token) {
     if (token.access) {

@@ -1,10 +1,8 @@
 <template>
-  <!--<div class="about">-->
-  <v-container>
+  <v-container >
     <User :info="info"></User>
 
   </v-container>
-  <!--</div>-->
 </template>
 
 <script>
@@ -15,11 +13,14 @@
     components: {User},
     data() {
       return {
-        info: {}
+        info: ApiManager.loadInfo()
       }
     },
     mounted() {
-      this.info = ApiManager.loadInfo()
+      const a = function () {
+
+      }
+      console.log(typeof (a))
     }
   }
 </script>

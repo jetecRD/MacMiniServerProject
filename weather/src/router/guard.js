@@ -1,11 +1,8 @@
 
 import ApiManager from "../store/Api"
 
-/* eslint-disable */
-const key = "page"
+// const key = "page"
 export const globalGuard = (to, from, next) => {
-  // console.log("TO: ", to)
-  // console.log("FROM: ", from)
   next()
 }
 

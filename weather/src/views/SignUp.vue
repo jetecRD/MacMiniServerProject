@@ -60,7 +60,7 @@
       <v-flex xs11 lg4>
         <v-btn class="btn-size"
                :color="btn.color"
-               to="/">Cancel
+               to="/login">Cancel
         </v-btn>
       </v-flex>
     </v-layout>
@@ -156,7 +156,7 @@
           this.errMessage(response.data)
         } else if (response.data.id) {
           alert("success")
-          this.$router.push("/")
+          this.$router.push("/login")
         }
       },
       errMessage(data) {

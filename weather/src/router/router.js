@@ -19,6 +19,11 @@ export default new Router({
       component: () => import('../views/SignUp.vue')
     },
     {
+      path: '/graph',
+      name: 'graph',
+      component: () => import('../views/Graph.vue')
+    },
+    {
       path: '/',
       component: Home,
       beforeEnter: guard.homeGuard,

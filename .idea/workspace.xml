@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2d1fb5-ce9d-4863-988a-52ba3a736a06" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/weather/src/components/RouterButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather/src/components/UserInfoListCell.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/weather/src/views/Graph.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/App.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/weather/src/components/User.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/components/User.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/router/guard.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/router/guard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/store/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/store/Api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/views/Home/About.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/views/Home/About.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/views/Home/Home.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/views/Home/Home.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/views/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/views/Login.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather/src/views/SignUp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/views/SignUp.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather/src/router/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/weather/src/router/router.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,93 +34,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/weather/src/views/Login.vue">
+        <entry file="file://$PROJECT_DIR$/weather/src/views/Graph.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/views/SignUp.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="158" column="35" selection-start-line="158" selection-start-column="35" selection-end-line="158" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/views/Home/About.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="589">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
-                <element signature="e#100#140#0" expanded="true" />
+                <element signature="n#style#0;n#v-sparkline#0;n#v-sheet#0;n#v-layout#0;n#template#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/views/Home/Home.vue">
+        <entry file="file://$PROJECT_DIR$/weather/src/router/router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+            <state relative-caret-position="494">
+              <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#v-btn#1;n#v-toolbar#0;n#v-app#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#v-btn#3;n#v-toolbar#0;n#v-app#0;n#template#0;n#!!top" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/components/User.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="117" column="31" lean-forward="true" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
-              <folding>
-                <element signature="n#style#0;n#v-card#0;n#v-flex#0;n#v-layout#0;n#v-container#0;n#v-container#0;n#template#0;n#!!top" expanded="true" />
-                <element signature="e#2124#2174#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/App.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/components/UserInfoListCell.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="10" selection-start-column="10" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/router/guard.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="8" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="27" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/weather/src/views/Home/Weather.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -198,7 +122,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/weather/src/app/router-button.vue" />
         <option value="$PROJECT_DIR$/twc220_log/upload.php" />
         <option value="$PROJECT_DIR$/LCDType/mainJavascriptFile.js" />
         <option value="$PROJECT_DIR$/weather/src/store/resource.js" />
@@ -238,7 +161,6 @@
         <option value="$PROJECT_DIR$/weather/src/components/router-button.vue" />
         <option value="$PROJECT_DIR$/weather/src/main.js" />
         <option value="$PROJECT_DIR$/weather/src/components/RouterButton.vue" />
-        <option value="$PROJECT_DIR$/weather/src/router/router.js" />
         <option value="$PROJECT_DIR$/weather/src/components/UserInfoListCell.vue" />
         <option value="$PROJECT_DIR$/weather/src/views/Home/About.vue" />
         <option value="$PROJECT_DIR$/weather/src/views/Home/Home.vue" />
@@ -247,8 +169,10 @@
         <option value="$PROJECT_DIR$/weather/src/router/guard.js" />
         <option value="$PROJECT_DIR$/weather/src/store/Api.js" />
         <option value="$PROJECT_DIR$/weather/src/views/SignUp.vue" />
-        <option value="$PROJECT_DIR$/weather/src/components/User.vue" />
         <option value="$PROJECT_DIR$/weather/src/views/Login.vue" />
+        <option value="$PROJECT_DIR$/weather/src/components/User.vue" />
+        <option value="$PROJECT_DIR$/weather/src/router/router.js" />
+        <option value="$PROJECT_DIR$/weather/src/views/Graph.vue" />
       </list>
     </option>
   </component>
@@ -281,6 +205,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -359,7 +284,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,7 +397,9 @@
       <workItem from="1556236974873" duration="26653000" />
       <workItem from="1556497868116" duration="27707000" />
       <workItem from="1556588499982" duration="19964000" />
-      <workItem from="1556756000229" duration="28204000" />
+      <workItem from="1556756000229" duration="28244000" />
+      <workItem from="1556843131957" duration="1059000" />
+      <workItem from="1556865064343" duration="5202000" />
     </task>
     <task id="LOCAL-00001" summary="vue lab">
       <created>1554976535139</created>
@@ -524,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1556618473999</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="5/2">
+      <created>1556791623021</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1556791623021</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425231000" />
+    <option name="totallyTimeSpent" value="431532000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -543,7 +476,7 @@
     <frame x="0" y="23" width="1920" height="971" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49302325" visible="true" weight="0.16488223" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49302325" visible="true" weight="0.16916488" />
       <window_info id="Structure" order="1" sideWeight="0.5069767" side_tool="true" weight="0.23179871" />
       <window_info id="Favorites" order="2" sideWeight="0.5046512" side_tool="true" weight="0.24411134" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.32905483" />
@@ -627,16 +560,14 @@
     <MESSAGE value="4/26 vuetify test" />
     <MESSAGE value="4/29 login signup" />
     <MESSAGE value="4/30 search" />
-    <option name="LAST_COMMIT_MESSAGE" value="4/30 search" />
+    <MESSAGE value="5/2" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/2" />
   </component>
   <component name="XPathView.XPathProjectComponent">
     <history />
     <find-history />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/weather/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather/.eslintrc.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -794,13 +725,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/dist/vuetify.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="4" column="309" selection-start-line="4" selection-start-column="309" selection-end-line="4" selection-end-column="309" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/components/HelloWorld.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -857,27 +781,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/router/router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/views/Home/Weather.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="63" lean-forward="true" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/router/guard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="8" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/store/Api.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -885,16 +788,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/components/UserInfoListCell.vue">
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Login.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        <state relative-caret-position="2717">
+          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/views/SignUp.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="3002">
           <caret line="158" column="35" selection-start-line="158" selection-start-column="35" selection-end-line="158" selection-end-column="35" />
         </state>
       </provider>
@@ -903,9 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
           <caret line="1" column="15" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding>
-            <element signature="e#100#140#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -927,21 +827,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/components/UserInfoListCell.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/router/guard.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="8" selection-start-line="14" selection-start-column="38" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Home/Weather.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/weather/src/components/User.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="117" column="31" lean-forward="true" selection-start-line="117" selection-start-column="31" selection-end-line="117" selection-end-column="31" />
+        <state relative-caret-position="612">
+          <caret line="79" column="15" lean-forward="true" selection-start-line="79" selection-start-column="15" selection-end-line="79" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#v-card#0;n#v-flex#0;n#v-layout#0;n#v-container#0;n#v-container#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#2124#2174#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/weather/src/views/Login.vue">
+    <entry file="file://$PROJECT_DIR$/weather/src/router/router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="138" column="20" selection-start-line="138" selection-start-column="20" selection-end-line="138" selection-end-column="20" />
+        <state relative-caret-position="494">
+          <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/node_modules/vuetify/dist/vuetify.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="4" column="58691" selection-start-line="4" selection-start-column="58691" selection-end-line="4" selection-end-column="58691" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weather/src/views/Graph.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#v-sparkline#0;n#v-sheet#0;n#v-layout#0;n#template#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -109,13 +109,16 @@
       async deleteAcc() {
         let c = 3
         const self = this
+        let enable = false
         if (!this.check) {
+          if (!enable) {return}
           self.okButton.title = "Check " + c
           const inter = setInterval(function () {
             c -= 1
             if (c < 1) {
               self.okButton.title = "Ok"
               self.check = true
+              enable = true
               window.clearInterval(inter)
             } else {
               self.okButton.title = "Check " + c
